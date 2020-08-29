@@ -21,6 +21,9 @@ I received my MS in Computer Science from [Information Technology University, La
 ## August 2020
 * Paper accepted in IEEE Trasactions on Artificial Intelligence: ["Leveraging Data Science To Combat COVID-19: A Comprehensive Review"](https://www.techrxiv.org/articles/Leveraging_Data_Science_To_Combat_COVID-19_A_Comprehensive_Review/12212516/files/22459823.pdf).
 
+## May 2020
+* Paper submitted in Journal of Artificial Intelligence in Education (AIED): "Artificial Intelligence in Education: A Panoramic Review" [(Preprint)](https://edarxiv.org/zvu2n/download?format=pdf).
+
 ## January 2020
 * Started PhD in Computer Science in [Networks Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/).
 
@@ -37,10 +40,10 @@ I received my MS in Computer Science from [Information Technology University, La
 * Successfully defended my MS thesis titled "Analysis of Computer Networking Research: A Bibliometric Study" with no further corrections.
 
 ## May 2016
-* Paper accepted in IEEE IWCMC 2016: "Experimental study of link quality in IEEE 802.15. 4 using Z1 Motes".
+* Paper accepted in IEEE IWCMC 2016: ["Experimental study of link quality in IEEE 802.15. 4 using Z1 Motes"](https://www.researchgate.net/profile/Waleed_Iqbal/publication/308811406_Experimental_study_of_link_quality_in_IEEE_802154_using_Z1_Motes/links/5bda57d0a6fdcc3a8db3e2be/Experimental-study-of-link-quality-in-IEEE-802154-using-Z1-Motes.pdf).
 
 ## April 2016
-* Poster paper accepted in ACM ICTD 2016: "Bridging Educational Gaps through Volunteers; Implementation, Problems and their Solutions".
+* Poster paper accepted in ACM ICTD 2016: ["Bridging Educational Gaps through Volunteers; Implementation, Problems and their Solutions"](https://www.researchgate.net/profile/Waleed_Iqbal/publication/303542794_Bridging_Educational_Gaps_through_Volunteers_Implementation_Problems_and_Their_Solutions/links/5a3986d7aca2728e698788c6/Bridging-Educational-Gaps-through-Volunteers-Implementation-Problems-and-Their-Solutions.pdf).
 
 ## October 2015
 * Secured Graduate Student Fellowship at [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) for my MS Computer Science. This fellowship is grant to top 15% students of the batch.
