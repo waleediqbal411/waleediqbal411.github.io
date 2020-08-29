@@ -99,9 +99,6 @@ author:
   location         : "Queen Mary University of London,\nMile End Road, London, E1 4NS"
   email            : "w.iqbal@qmul.ac.uk"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:w.iqbal@qmul.ac.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://waleediqbal411.github.io"
