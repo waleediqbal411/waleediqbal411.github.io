@@ -13,7 +13,7 @@ locale                   : "en-UK"
 title                    : "Waleed Iqbal"
 title_separator          : "-"
 name                     : &name "Waleed Iqbal"
-description              : &description "Graduate Scholar"
+description              : &description "PhD Candidate"
 url                      : https://waleediqbal411.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "waleediqbal411/waleediqbal411.github.io"
@@ -77,7 +77,7 @@ analytics:
 author:
   name             : "Waleed Iqbal"
   avatar           : "profile.jpg"
-  bio              : "PhD Candidate"
+  bio              : "PhD Candidate, QMUL, UK"
   location         : "QMUL, UK"
   employer         :
   researchgate     : "https://www.researchgate.net/profile/Waleed_Iqbal"
