@@ -4,6 +4,8 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+minimal_mistakes_skin    : "aqua" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 
 # Site Settings
 locale                   : "en-UK"
@@ -81,7 +83,7 @@ author:
   name             : "Waleed Iqbal"
   avatar           : "biopic.jpg"
   bio              : "PhD Candidate"
-  location         : "Queen Mary University of London"
+  location         : "QMUL, London, E1 4NS"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=uXhMEBsAAAAJ"
   email            : "w.iqbal@qmul.ac.uk"
