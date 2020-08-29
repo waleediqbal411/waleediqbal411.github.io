@@ -13,13 +13,13 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 # minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin    : "neon" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "en-UK"
 title                    : "Waleed Iqbal"
 title_separator          : "-"
 name                     : &name "Waleed Iqbal"
-description              : &description "PhD Student at Queen Mary University of London"
+description              : &description "PhD Candidate at Queen Mary University of London"
 url                      : https://waleediqbal411.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "waleediqbal411/waleediqbal411.github.io"
@@ -89,7 +89,7 @@ analytics:
 author:
   name             : "Waleed Iqbal"
   avatar           : "biophoto.jpg"
-  bio              : "PhD Student, Social Data Science Lab (SDS), QMUL"
+  bio              : "PhD Candidate, Social Data Science Lab (SDS), QMUL"
   location         : "Queen Mary University of London"
   employer         :
   googlescholar    :
