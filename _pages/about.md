@@ -12,7 +12,7 @@ redirect_from:
 
 Hey, I am Waleed Iqbal, a PhD candidate in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) in [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). My supervisors are [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/). My research interests are broadly in information diffusion and moderation mechanisms of large-scale social networks.
 
-Previously I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) as affliated researcher and teaching assistant.
+Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) as affliated researcher and teaching assistant.
 
 I received my MS in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) and my B.Sc. in Electrical Engineering from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
