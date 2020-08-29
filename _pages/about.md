@@ -28,7 +28,7 @@ I received my MS in Computer Science from [Information Technology University, La
 * Paper submitted in Journal of Artificial Intelligence in Education (AIED): "Artificial Intelligence in Education: A Panoramic Review" [(Preprint)](https://edarxiv.org/zvu2n/download?format=pdf).
 
 ## January 2020
-* Started PhD in Computer Science in [Networks Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/).
+* Started PhD in Computer Science within [Networks Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/).
 
 ## October 2019
 * Editorial accepted in Computer Communication Review: ["Five Decades Of The ACM Special Interest Group On Data Communications (SIGCOMM) A Bibliometric Perspective"](https://ccronline.sigcomm.org/wp-content/uploads/2019/10/acmdl19-334.pdf).
