@@ -5,24 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-# minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin    : "aqua" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "en-UK"
-title                    : "Waleed Iqbal"
+title                    : "Naomi Arnold"
 title_separator          : "-"
-name                     : &name "Waleed Iqbal"
-description              : &description "PhD Candidate at Queen Mary University of London"
-url                      : https://waleediqbal411.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Naomi Arnold"
+description              : &description "PhD Student at Queen Mary University of London"
+url                      : https://narnolddd.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "waleediqbal411/waleediqbal411.github.io"
+repository               : "narnolddd/narnolddd.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -64,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "waleediqbal411"
+  username               : &twitter "narnolddd"
 facebook:
   username               :
   app_id                 :
@@ -87,13 +78,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Waleed Iqbal"
+  name             : "Naomi Arnold"
   avatar           : "biophoto.jpg"
-  bio              : "PhD Candidate, Social Data Science Lab (SDS), QMUL"
+  bio              : "PhD Student"
   location         : "Queen Mary University of London"
   employer         :
   googlescholar    :
-  email            : "w.iqbal@qmul.ac.uk"
+  email            : "n.a.arnold@qmul.ac.uk"
   uri              :
   bitbucket        :
   codepen          :
@@ -101,19 +92,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "waleediqbal411"
+  github           : "narnolddd"
   google_plus      :
   keybase          :
-  instagram        : "iam_waleediqbal"
+  instagram        : "naomialice96"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/waleediqbal411"
+  linkedin         : "https://www.linkedin.com/in/naomi-arnold-68b1ba147/"
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "waleediqbal411"
+  twitter          : "narnolddd"
   vine             :
   weibo            :
   xing             :
@@ -230,6 +221,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
   - scope:
       path: ""
