@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Waleed Iqbal"
-  avatar           : "/images/biopic2.jpg"
+  avatar           : "/images/biopic.jpg"
   bio              : "PhD Candidate at Social Data Science (SDS) Lab, QMUL."
   location         : "Queen Mary University of London, Mile End Road, London, E1 4NS"
   email            : "w.iqbal@qmul.ac.uk"
@@ -108,8 +108,8 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/waleediqbal411"
-    # - label: "Facebook"
-      # icon: "fab fa-fw fa-facebook-square"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -126,13 +126,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url:  "https://twitter.com/waleediqbal411"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url:  "https://github.com/waleediqbal411"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -141,7 +141,11 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url:  "https://instagram.com/iam_waleediqbal"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url:  "https://www.linkedin.com/in/waleediqbal411/"
+
 
 
 # Reading Files
