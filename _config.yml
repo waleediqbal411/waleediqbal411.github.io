@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Waleed Iqbal"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/biopic.jpg"
   bio              : "PhD Candidate at Social Data Science (SDS) Lab, QMUL."
   location         : "Queen Mary University of London, Mile End Road, London, E1 4NS"
   email            : "w.iqbal@qmul.ac.uk"
@@ -289,4 +289,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
