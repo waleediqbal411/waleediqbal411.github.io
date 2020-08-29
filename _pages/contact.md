@@ -7,8 +7,8 @@ author_profile: true
 
 Contact information is below, including email and various web services.
 
-* E-mail: haseeb.arshad.ee [at] gmail.com
-* Twitter: [_haseebarshad](https://twitter.com/_haseebarshad)
-* Google Scholar: [author:M.H. Arshad](https://scholar.google.com/citations?user=-nga1p4AAAAJ&hl=en)
-* Researchgate: [Muhammad Haseeb Arshad](https://www.researchgate.net/profile/Muhammad_Haseeb_Arshad)
-* LinkedIn: [haseeb-arshad-ee](https://www.linkedin.com/in/haseeb-arshad-ee/)
+* E-mail: waleediqbal411 [at] gmail.com
+* Twitter: [waleediqbal411](https://twitter.com/waleediqbal411)
+* Google Scholar: [Waleed Iqbal](https://scholar.google.com/citations?hl=en&user=uXhMEBsAAAAJ)
+* Researchgate: [Waleed Iqbal](https://www.researchgate.net/profile/Waleed_Iqbal)
+* LinkedIn: [waleediqbal411](https://www.linkedin.com/in/waleediqbal411/)
