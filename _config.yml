@@ -53,7 +53,7 @@ future                   : true
 
 # Social Sharing
 twitter:
-  username               : &twitter "_waleediqbal411"
+  username               : &twitter "waleediqbal411"
 facebook:
   username               : 
   app_id                 :
@@ -95,7 +95,7 @@ author:
   keybase          :
   instagram        : "iam_waleediqbal"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/waleediqbal411/"
+  linkedin         : "waleediqbal411"
   orcid            : "https://orcid.org/0000-0002-9805-5688"
   pinterest        :
   soundcloud       :
