@@ -30,6 +30,9 @@ I received my MS in Computer Science from [Information Technology University, La
 ## March 2019
 * Paper accepted in Springer Scientometrics Journal: ["A Bibliometric Analysis of Publications in Computer Networking Research"](https://arxiv.org/pdf/1903.01517).
 
+## August 2019
+* Graduated from [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and obtained MS Computer Science with Dean's Roll of Honor.
+
 ## June 2018
 * Successfully defended my MS thesis titled "Analysis of Computer Networking Research: A Bibliometric Study" with no further corrections.
 
