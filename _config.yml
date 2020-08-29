@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Naomi Arnold"
+title                    : "Waleed Iqbal"
 title_separator          : "-"
-name                     : &name "Naomi Arnold"
-description              : &description "PhD Student at Queen Mary University of London"
-url                      : https://narnolddd.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Waleed Iqbal"
+description              : &description "PhD Candidate at Queen Mary University of London"
+url                      : https://waleediqbal411.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "narnolddd/narnolddd.github.io"
+repository               : "waleediqbal411/waleediqbal411.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "narnolddd"
+  username               : &twitter "waleediqbal411"
 facebook:
   username               :
   app_id                 :
@@ -78,13 +78,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Naomi Arnold"
-  avatar           : "biophoto.jpg"
-  bio              : "PhD Student"
+  name             : "Waleed Iqbal"
+  avatar           : "biopic.jpg"
+  bio              : "PhD Candidate"
   location         : "Queen Mary University of London"
   employer         :
-  googlescholar    :
-  email            : "n.a.arnold@qmul.ac.uk"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=uXhMEBsAAAAJ"
+  email            : "w.iqbal@qmul.ac.uk"
   uri              :
   bitbucket        :
   codepen          :
@@ -92,19 +92,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "narnolddd"
+  github           : "waleediqbal411"
   google_plus      :
   keybase          :
-  instagram        : "naomialice96"
+  instagram        : "iam_waleediqbal"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/naomi-arnold-68b1ba147/"
+  linkedin         : "https://www.linkedin.com/in/waleediqbal411/"
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "narnolddd"
+  twitter          : "waleediqbal411"
   vine             :
   weibo            :
   xing             :
