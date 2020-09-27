@@ -25,8 +25,6 @@ I received my MS in Computer Science from [Information Technology University, La
 ## July 2020
 * Paper submitted in Frontiers in Big Data Machine Learning and Artificial Intelligence: "Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security".
 
-## May 2020
-* Paper submitted in Journal of Artificial Intelligence in Education (AIED): "Artificial Intelligence in Education: A Panoramic Review" [(Preprint)](https://edarxiv.org/zvu2n/download?format=pdf).
 
 ## April 2020
 * Paper submitted in IEEE Trasactions on Artificial Intelligence: Leveraging Data Science To Combat COVID-19: A Comprehensive Review".
