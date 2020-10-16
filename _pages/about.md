@@ -19,6 +19,8 @@ I received my MS in Computer Science from [Information Technology University, La
 # News
 
 ## October 2020
+* Paper accepted in IEEE/ACM ASONAM 2020: "First Look at COVID-19 Messages on WhatsApp in Pakistan".
+
 * Paper accepted in Frontiers in Big Data: "Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security".
 
 ## August 2020
