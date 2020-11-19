@@ -10,15 +10,17 @@ redirect_from:
 
 {% include base_path %}
 
-Hey, I am Waleed Iqbal, a PhD candidate in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) in [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). My supervisors are [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/). My research interests are broadly in information diffusion and moderation mechanisms of large-scale social networks.
+Hey, I am Waleed Iqbal, a PhD candidate in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) in [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). My supervisors are [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/). My research interests are broadly in Fairness in Content Moderation mechanisms of large-scale social networks.
 
-Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) as affiliated researcher and teaching assistant.
+Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) with [Prof. Dr. Junaid Qadir](https://itu.edu.pk/faculty-itu/dr-junaid-qadir/) as affiliated researcher and teaching assistant.
 
 I received my MS in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) and my B.Sc. in Electrical Engineering from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
 # News
 
 ## October 2020
+* Paper submitted in The Web Conference (WWW) 2021: "Analysis of Public Debate and Content Moderationover Social Media through the lens of COVID-19: AReddit based Study"
+
 * Paper accepted in IEEE/ACM ASONAM 2020: "First Look at COVID-19 Messages on WhatsApp in Pakistan".
 
 * Paper accepted in Frontiers in Big Data: "Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security".
@@ -30,6 +32,8 @@ I received my MS in Computer Science from [Information Technology University, La
 ## July 2020
 * Paper submitted in Frontiers in Big Data Machine Learning and Artificial Intelligence: "Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security".
 
+## June 2020
+* Successfully passed the Stage Zero of my Ph.D. at Queen Mary University of London.
 
 ## April 2020
 * Paper submitted in IEEE Trasactions on Artificial Intelligence: Leveraging Data Science To Combat COVID-19: A Comprehensive Review".
