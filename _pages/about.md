@@ -19,7 +19,7 @@ I received my MS in Computer Science from [Information Technology University, La
 # News
 
 ## October 2020
-* Paper submitted in The Web Conference (WWW) 2021: "Analysis of Public Debate and Content Moderationover Social Media through the lens of COVID-19: AReddit based Study"
+* Paper submitted in The Web Conference (WWW) 2021: "Analysis of Public Debate and Content Moderationover Social Media through the lens of COVID-19: A Reddit based Study"
 
 * Paper accepted in IEEE/ACM ASONAM 2020: "First Look at COVID-19 Messages on WhatsApp in Pakistan".
 
