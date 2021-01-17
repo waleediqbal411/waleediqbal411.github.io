@@ -22,8 +22,6 @@ I received my MS in Computer Science from [Information Technology University, La
 * Successfully passed the Stage One (First Year Progression) of my Ph.D. at Queen Mary University of London.
 
 ## October 2020
-* Paper submitted in The Web Conference (WWW) 2021: "Analysis of Public Debate and Content Moderationover Social Media through the lens of COVID-19: A Reddit based Study"
-
 * Paper accepted in IEEE/ACM ASONAM 2020: "First Look at COVID-19 Messages on WhatsApp in Pakistan".
 
 * Paper accepted in Frontiers in Big Data: "Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security".
