@@ -18,6 +18,9 @@ I received my MS in Computer Science from [Information Technology University, La
 
 # News
 
+## August 2021
+* Paper accepted in ACM IMC 2021: "Characterising the IETF Through the Lens of RFC Deployment".
+
 ## November 2020
 * Successfully passed the Stage One (First Year Progression) of my Ph.D. at Queen Mary University of London.
 
