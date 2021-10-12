@@ -18,6 +18,9 @@ I received my MS in Computer Science from [Information Technology University, La
 
 # News
 
+## October 2021
+* Paper accepted in Springer Social Networks and Mining (SNAM) Journal: "A Deep Dive into COVID-19 Related Messages on WhatsApp in Pakistan".
+
 ## August 2021
 * Paper accepted in ACM IMC 2021: "Characterising the IETF Through the Lens of RFC Deployment".
 
@@ -25,9 +28,9 @@ I received my MS in Computer Science from [Information Technology University, La
 * Successfully passed the Stage One (First Year Progression) of my Ph.D. at Queen Mary University of London.
 
 ## October 2020
-* Paper accepted in IEEE/ACM ASONAM 2020: "First Look at COVID-19 Messages on WhatsApp in Pakistan".
+* Paper accepted in IEEE/ACM ASONAM 2020: ["First Look at COVID-19 Messages on WhatsApp in Pakistan"](https://ieeexplore.ieee.org/abstract/document/9381360).
 
-* Paper accepted in Frontiers in Big Data: "Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security".
+* Paper accepted in Frontiers in Big Data: ["Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7931962/pdf/fdata-03-587139.pdf).
 
 ## August 2020
 * Paper accepted in IEEE Trasactions on Artificial Intelligence: ["Leveraging Data Science To Combat COVID-19: A Comprehensive Review"](https://www.techrxiv.org/articles/Leveraging_Data_Science_To_Combat_COVID-19_A_Comprehensive_Review/12212516/files/22459823.pdf).
