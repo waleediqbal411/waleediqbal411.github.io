@@ -10,13 +10,21 @@ redirect_from:
 
 {% include base_path %}
 
-Hey, I am Waleed Iqbal, a PhD candidate in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) in [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). My supervisors are [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/). My research interests are broadly in Fairness in Content Moderation mechanisms of large-scale social networks.
+Hey, I am Waleed Iqbal, a PhD candidate in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) in [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). My supervisors are [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/). My research interests are broadly in Manifestation of Socio-economic Inequality in Online User Activity.
 
 Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) with [Prof. Dr. Junaid Qadir](https://itu.edu.pk/faculty-itu/dr-junaid-qadir/) as affiliated researcher and teaching assistant.
 
 I received my MS in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) and my B.Sc. in Electrical Engineering from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
 # News
+## September 2022
+* Poster Paper accepted in Internet Measurement Conference (IMC) 2022: "Exploring Online Manifestations of Real-World Inequalities".
+
+## August 2022
+* I am serving as Shadow Technical Program Committee Member for [Internet Measurement Conference (IMC) 2022](https://imc22shadowtpc.hotcrp.com/users/pc)
+
+## June 2022
+* Successfully passed the Stage Two (Second Year Progression) of my Ph.D. at Queen Mary University of London.
 
 ## October 2021
 * Paper accepted in Springer Social Networks and Mining (SNAM) Journal: "A Deep Dive into COVID-19 Related Messages on WhatsApp in Pakistan".
