@@ -3,13 +3,13 @@ main:
   - title: "Publications"
     url: /articles/
 
-  #- title: "Talks"
-  #  url: /talks/    
+  - title: "Talks"
+   url: /talks/    
     
   #- title: "Expressions"
   #  url: /expressions/
 
-  #- title: "Teaching"
+  # - title: "Teaching"
   #  url: /teaching/
         
   #- title: "Blog Posts"
