@@ -18,7 +18,7 @@ I received my MS in Computer Science from [Information Technology University, La
 
 # News
 ## September 2022
-* Poster Paper accepted in Internet Measurement Conference (IMC) 2022: "Exploring Online Manifestations of Real-World Inequalities".
+* Poster Paper accepted in Internet Measurement Conference (IMC) 2022: ["Exploring Online Manifestations of Real-World Inequalities"](https://conferences.sigcomm.org/imc/2022/posters/).
 
 ## August 2022
 * I am serving as Shadow Technical Program Committee Member for [Internet Measurement Conference (IMC) 2022](https://imc22shadowtpc.hotcrp.com/users/pc)
