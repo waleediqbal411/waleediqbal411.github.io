@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hey, I am Waleed Iqbal, a PhD candidate in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) in [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). My supervisors are [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity.
+Hey, I am Waleed Iqbal, a Teaching Fellow in Computer Science and a PhD candidate in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) in [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). My supervisors are [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity.
 
 Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) with [Prof. Dr. Junaid Qadir](https://itu.edu.pk/faculty-itu/dr-junaid-qadir/) as affiliated researcher and teaching assistant.
 
