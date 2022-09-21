@@ -18,6 +18,10 @@ I received my MS in Computer Science from [Information Technology University, La
 
 # News
 ## September 2022
+* I have accepted a position of Teaching Fellow of Computer Science at [School of Electronic Engineering and Computer Science, QMUL](https://eecs.qmul.ac.uk). 
+
+* Travel Grant accepted for [ACM Internet Measurement Conference (IMC) 2022](https://conferences.sigcomm.org/imc/2022/).
+
 * Poster Paper accepted in Internet Measurement Conference (IMC) 2022: ["Exploring Online Manifestations of Real-World Inequalities"](https://conferences.sigcomm.org/imc/2022/posters/).
 
 ## August 2022
