@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "SOC-167: Sociology of Virtual Communities and Social Media (Summer 2014)"
 collection: teaching
 teaching_type: "Undergraduate course"
@@ -252,4 +252,4 @@ Optional reading:
 
 - Geiger, R.Stuart. &quot; [The Lives of Bots](http://www.stuartgeiger.com/lives-of-bots-wikipedia-cpov.pdf).&quot; Wikipedia: A Critical Point of View. p.78-93.
 
-**July 2nd: In-class final exam**
+**July 2nd: In-class final exam** -->
