@@ -10,11 +10,11 @@ redirect_from:
 
 {% include base_path %}
 
-Hey, I am Waleed Iqbal, a Teaching Fellow in Computer Science and a PhD candidate in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) in [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). My supervisors are [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity.
+Hey, I am Waleed Iqbal, a Teaching Fellow in Computer Science and a PhD candidate, under the supervision of [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/) in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity.
 
-Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) with [Prof. Dr. Junaid Qadir](https://itu.edu.pk/faculty-itu/dr-junaid-qadir/) as affiliated researcher and teaching assistant.
+Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and supervised by [Prof. Dr. Junaid Qadir](https://itu.edu.pk/faculty-itu/dr-junaid-qadir/) as postgraduate thesis student, affiliated researcher and teaching assistant.
 
-I received my MS in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) and my B.Sc. in Electrical Engineering from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
+I received my MS in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) with Dean's Roll of Honors and my B.Sc. in Electrical Engineering with Honors from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
 # News
 ## September 2022
@@ -48,14 +48,8 @@ I received my MS in Computer Science from [Information Technology University, La
 * Paper accepted in IEEE Trasactions on Artificial Intelligence: ["Leveraging Data Science To Combat COVID-19: A Comprehensive Review"](https://www.techrxiv.org/articles/Leveraging_Data_Science_To_Combat_COVID-19_A_Comprehensive_Review/12212516/files/22459823.pdf).
 * Paper submitted in IEEE/ACM ASONAM-2020: "A First Look at COVID-19 Messages on WhatsApp in Pakistan".
 
-## July 2020
-* Paper submitted in Frontiers in Big Data Machine Learning and Artificial Intelligence: "Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security".
-
 ## June 2020
-* Successfully passed the Stage Zero of my Ph.D. at Queen Mary University of London.
-
-## April 2020
-* Paper submitted in IEEE Trasactions on Artificial Intelligence: Leveraging Data Science To Combat COVID-19: A Comprehensive Review".
+* Successfully passed the Stage Zero (First Quarter Progression Exam) of my Ph.D. at Queen Mary University of London.
 
 ## January 2020
 * Started PhD in Computer Science within [Networks Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/).
@@ -67,7 +61,7 @@ I received my MS in Computer Science from [Information Technology University, La
 * Paper accepted in Springer Scientometrics Journal: ["A Bibliometric Analysis of Publications in Computer Networking Research"](https://arxiv.org/pdf/1903.01517).
 
 ## August 2019
-* Graduated from [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and obtained MS Computer Science with Dean's Roll of Honor.
+* Graduated from [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and received my MS Computer Science degree with Dean's Roll of Honor.
 
 ## June 2018
 * Successfully defended my MS thesis titled "Analysis of Computer Networking Research: A Bibliometric Study" with no further corrections.
