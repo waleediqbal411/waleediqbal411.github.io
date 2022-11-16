@@ -17,6 +17,9 @@ Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information
 I received my MS in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) with Dean's Roll of Honors and my B.Sc. in Electrical Engineering with Honors from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
 # News
+## November 2022
+* Paper accepted in Asian Internet Engineering Conference (AINTEC) 2022: "Exploring Crowdsourced Content Moderation Through Lens of Reddit during COVID-19".
+
 ## September 2022
 * I have accepted a position of Teaching Fellow of Computer Science at [School of Electronic Engineering and Computer Science, QMUL](https://eecs.qmul.ac.uk). 
 
