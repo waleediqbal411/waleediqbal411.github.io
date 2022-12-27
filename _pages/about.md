@@ -18,14 +18,14 @@ I received my MS in Computer Science from [Information Technology University, La
 
 # News
 ## November 2022
-* Paper accepted in Asian Internet Engineering Conference (AINTEC) 2022: "Exploring Crowdsourced Content Moderation Through Lens of Reddit during COVID-19".
+* Paper accepted in Asian Internet Engineering Conference (AINTEC) 2022: ["Exploring Crowdsourced Content Moderation Through Lens of Reddit during COVID-19"](https://dl.acm.org/doi/10.1145/3570748.3570753).
 
 ## September 2022
 * I have accepted a position of Teaching Fellow of Computer Science at [School of Electronic Engineering and Computer Science, QMUL](https://eecs.qmul.ac.uk). 
 
 * Travel Grant accepted for [ACM Internet Measurement Conference (IMC) 2022](https://conferences.sigcomm.org/imc/2022/).
 
-* Poster Paper accepted in Internet Measurement Conference (IMC) 2022: ["Exploring Online Manifestations of Real-World Inequalities"](https://conferences.sigcomm.org/imc/2022/posters/).
+* Poster Paper accepted in Internet Measurement Conference (IMC) 2022: ["Exploring Online Manifestations of Real-World Inequalities"](https://dl.acm.org/doi/10.1145/3517745.3563027).
 
 ## August 2022
 * I am serving as Shadow Technical Program Committee Member for [Internet Measurement Conference (IMC) 2022](https://imc22shadowtpc.hotcrp.com/users/pc)
