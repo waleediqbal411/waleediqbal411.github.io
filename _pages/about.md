@@ -12,9 +12,9 @@ redirect_from:
 
 Hey, I am Waleed Iqbal, a Teaching Fellow in Computer Science and a PhD candidate, under the supervision of [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/) in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity.
 
-Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and supervised by [Prof. Dr. Junaid Qadir](https://itu.edu.pk/faculty-itu/dr-junaid-qadir/) as postgraduate thesis student, affiliated researcher and teaching assistant.
+Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and supervised by [Prof. Dr. Junaid Qadir](http://qufaculty.qu.edu.qa/jqadir/) as a postgraduate thesis student, affiliated researcher and teaching assistant.
 
-I received my MS in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) with Dean's Roll of Honors and my B.Sc. in Electrical Engineering with Honors from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
+I received my MSc in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) with Dean's Roll of Honors and my B.Sc. in Electrical Engineering with Honors from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
 # News
 ## November 2022
