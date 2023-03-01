@@ -1,5 +1,5 @@
 ---
-title: "ECS417U Data Mining"
+title: "ECS417U Fundamentals of Web Technologies"
 collection: teaching
 teaching_type: "Undergraduate Course"
 permalink: /teaching/fall09-qualitative-data
