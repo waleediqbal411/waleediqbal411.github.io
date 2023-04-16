@@ -21,7 +21,7 @@ I received my MSc in Computer Science from [Information Technology University, L
 ## March 2023
 * Project accepted for presentation in Data Native 2023, London, UK: "Online Manifestations of Real-World Inequalities in the Nextdoor Social Network".
 
-* Paper accepted in 17th International AAAI Conference of Web and Social Media (AAAI ICWSM) 2023: "Lady and Tramp Nextdoor: Online Manifestations of Real-World Inequalities in the Nextdoor Social Network".
+* Paper accepted in 17th International AAAI Conference of Web and Social Media (AAAI ICWSM) 2023: ["Lady and Tramp Nextdoor: Online Manifestations of Real-World Inequalities in the Nextdoor Social Network"](https://arxiv.org/pdf/2304.05232.pdf).
 
 ## November 2022
 * Paper accepted in Asian Internet Engineering Conference (AINTEC) 2022: ["Exploring Crowdsourced Content Moderation Through Lens of Reddit during COVID-19"](https://dl.acm.org/doi/10.1145/3570748.3570753).
