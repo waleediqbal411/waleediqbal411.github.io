@@ -17,6 +17,11 @@ Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information
 I received my MSc in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) with Dean's Roll of Honors and my B.Sc. in Electrical Engineering with Honors from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
 # News
+## Semtember 2023
+* Paper accepted for presentation in IEEE Transactions on Learning Technologies: ["Data-Driven Artificial Intelligence in Education: A Comprehensive Review"](https://ieeexplore.ieee.org/abstract/document/10247566).
+
+## July 2023
+* Project accepted for presentation in COSENERS 2023, London, UK: "Exploring online Manifestations of Real-World Inequalities in the Nextdoor Social Network".
 
 ## March 2023
 * Project accepted for presentation in Data Native 2023, London, UK: "Online Manifestations of Real-World Inequalities in the Nextdoor Social Network".
