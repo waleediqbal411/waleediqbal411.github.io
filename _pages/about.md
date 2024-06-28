@@ -31,14 +31,14 @@ I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Resear
 * Paper accepted in 17th International AAAI Conference of Web and Social Media (AAAI ICWSM) 2023: ["Lady and Tramp Nextdoor: Online Manifestations of Real-World Inequalities in the Nextdoor Social Network"](https://arxiv.org/pdf/2304.05232.pdf).
 
 ## November 2022
-* Paper accepted in Asian Internet Engineering Conference (AINTEC) 2022: ["Exploring Crowdsourced Content Moderation Through Lens of Reddit during COVID-19"](https://dl.acm.org/doi/10.1145/3570748.3570753).
+* Paper accepted in 17th Asian Internet Engineering Conference (AINTEC) 2022: ["Exploring Crowdsourced Content Moderation Through Lens of Reddit during COVID-19"](https://dl.acm.org/doi/10.1145/3570748.3570753).
 
 ## September 2022
 * I have accepted a position of Teaching Fellow of Computer Science at [School of Electronic Engineering and Computer Science, QMUL](https://eecs.qmul.ac.uk). 
 
 * Travel Grant accepted for [ACM Internet Measurement Conference (IMC) 2022](https://conferences.sigcomm.org/imc/2022/).
 
-* Poster Paper accepted in Internet Measurement Conference (IMC) 2022: ["Exploring Online Manifestations of Real-World Inequalities"](https://dl.acm.org/doi/10.1145/3517745.3563027).
+* Poster accepted in Internet Measurement Conference (IMC) 2022: ["Exploring Online Manifestations of Real-World Inequalities"](https://dl.acm.org/doi/10.1145/3517745.3563027).
 
 ## August 2022
 * I am serving as Shadow Technical Program Committee Member for [Internet Measurement Conference (IMC) 2022](https://imc22shadowtpc.hotcrp.com/users/pc)
@@ -47,10 +47,10 @@ I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Resear
 * Successfully passed the Stage Two (Second Year Progression) of my Ph.D. at Queen Mary University of London.
 
 ## October 2021
-* Paper accepted in Springer Social Networks and Mining (SNAM) Journal: "A Deep Dive into COVID-19 Related Messages on WhatsApp in Pakistan".
+* Paper accepted in Springer Social Networks and Mining (SNAM) Journal: ["A Deep Dive into COVID-19 Related Messages on WhatsApp in Pakistan"](https://www.eecs.qmul.ac.uk/~tysong/files/SNAM22.pdf).
 
 ## August 2021
-* Paper accepted in ACM IMC 2021: "Characterising the IETF Through the Lens of RFC Deployment".
+* Paper accepted in ACM IMC 2021: ["Characterising the IETF Through the Lens of RFC Deployment"](https://eprints.gla.ac.uk/250206/2/250206.pdf).
 
 ## November 2020
 * Successfully passed the Stage One (First Year Progression) of my Ph.D. at Queen Mary University of London.
@@ -61,8 +61,7 @@ I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Resear
 * Paper accepted in Frontiers in Big Data: ["Securing Machine Learning (ML) in the Cloud: A Systematic Review of Cloud ML Security"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7931962/pdf/fdata-03-587139.pdf).
 
 ## August 2020
-* Paper accepted in IEEE Trasactions on Artificial Intelligence: ["Leveraging Data Science To Combat COVID-19: A Comprehensive Review"](https://www.techrxiv.org/articles/Leveraging_Data_Science_To_Combat_COVID-19_A_Comprehensive_Review/12212516/files/22459823.pdf).
-* Paper submitted in IEEE/ACM ASONAM-2020: "A First Look at COVID-19 Messages on WhatsApp in Pakistan".
+* Paper accepted in IEEE Trasactions on Artificial Intelligence: ["Leveraging Data Science To Combat COVID-19: A Comprehensive Review"](https://ieeexplore.ieee.org/ielaam/9078688/9271839/9184922-aam.pdf).
 
 ## June 2020
 * Successfully passed the Stage Zero (First Quarter Progression Exam) of my Ph.D. at Queen Mary University of London.
