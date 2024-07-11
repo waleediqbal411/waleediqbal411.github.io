@@ -16,7 +16,7 @@ Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information
 
 I received my MSc in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) with Dean's Roll of Honors and my B.Sc. in Electrical Engineering with Honors from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
-I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by UK Government and Royal Academy of Engineering UK.
+Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by UK Government and Royal Academy of Engineering UK.
 
 # News
 ## September 2023
