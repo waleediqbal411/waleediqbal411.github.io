@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hey, I am Waleed Iqbal, a Teaching Fellow in Computer Science and a PhD candidate, under the supervision of [Dr. Ignacio Castro](https://icastro.info/) and [Dr. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/) in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity.
+Hey, I am Waleed Iqbal, a Teaching Fellow in Computer Science and a PhD candidate, under the supervision of [Dr. Ignacio Castro](https://icastro.info/) and [Prof. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/) in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Research Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity.
 
 Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and supervised by [Prof. Dr. Junaid Qadir](http://qufaculty.qu.edu.qa/jqadir/) as a postgraduate thesis student, affiliated researcher and teaching assistant.
 
@@ -67,7 +67,7 @@ Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptio
 * Successfully passed the Stage Zero (First Quarter Progression Exam) of my Ph.D. at Queen Mary University of London.
 
 ## January 2020
-* Started PhD in Computer Science within [Networks Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/).
+* Started as PhD Student in [Networks Research Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/).
 
 ## October 2019
 * Editorial accepted in Computer Communication Review: ["Five Decades Of The ACM Special Interest Group On Data Communications (SIGCOMM) A Bibliometric Perspective"](https://ccronline.sigcomm.org/wp-content/uploads/2019/10/acmdl19-334.pdf).
