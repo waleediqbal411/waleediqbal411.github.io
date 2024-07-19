@@ -16,10 +16,15 @@ Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information
 
 I received my MSc in Computer Science from [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) with Dean's Roll of Honors and my B.Sc. in Electrical Engineering with Honors from [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
 
-Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by UK Government and Royal Academy of Engineering UK.
+Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by Royal Academy of Engineering UK and granted Global Talent Visa by The Government of United Kingdom.
 
 # News
+## July 2024
+* Our working paper on Discourse similarlity analysis between Elected Politcians and Constituents is available on ArXiv: ["How Similar Are Elected Politicians and Their Constituents? Quantitative Evidence From Online Social Networks"](https://arxiv.org/pdf/2407.03255).
+
 ## September 2023
+* I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by Royal Academy of Engineering UK and granted Global Talent Visa by The Government of United Kingdom.
+
 * Paper accepted for presentation in IEEE Transactions on Learning Technologies: ["Data-Driven Artificial Intelligence in Education: A Comprehensive Review"](https://ieeexplore.ieee.org/abstract/document/10247566).
 
 ## July 2023
