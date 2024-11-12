@@ -11,6 +11,9 @@
 */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
+body {
+    background: #fafafa;
+  }
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
