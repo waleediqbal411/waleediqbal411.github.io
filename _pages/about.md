@@ -19,6 +19,9 @@ I received my MSc in Computer Science from [Information Technology University, L
 Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by Royal Academy of Engineering UK and granted Global Talent Visa by The Government of United Kingdom.
 
 # News
+## November 2024
+* I have successfully passed my PhD with subject to usual minor corrections.
+
 ## July 2024
 * Our working paper on Discourse similarlity analysis between Elected Politcians and Constituents is available on ArXiv: ["How Similar Are Elected Politicians and Their Constituents? Quantitative Evidence From Online Social Networks"](https://arxiv.org/pdf/2407.03255).
 
