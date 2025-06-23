@@ -21,7 +21,11 @@ Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptio
 
 # News
 ## June 2025
-* I am promoted to Assistant Professor in Data Science at [Northeastern University](https://www.northeastern.edu) and will remain based in their [London Campus](https://www.nulondon.ac.uk).
+* I am promoted to Assistant Professor in Data Science (Teaching and Scholarship) at [Northeastern University](https://www.northeastern.edu) and will remain based in their [London Campus](https://www.nulondon.ac.uk).
+
+## April 2025
+* I delivered two lectures on Natural Language Processing for [Northeastern University London Campus's](https://www.nulondon.ac.uk) Global Postgraduate Taster Lectures.
+
 
 ## January 2025
 * I have joined [Northeastern University](https://www.northeastern.edu) as Lecturer in Data Science and based in their [London Campus](https://www.nulondon.ac.uk).
