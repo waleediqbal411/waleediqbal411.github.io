@@ -20,6 +20,9 @@ I received my MSc in Computer Science from [Information Technology University, L
 Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by Royal Academy of Engineering UK and granted Global Talent Visa by The Government of United Kingdom.
 
 # News
+## January 2025
+* I have joined [Northeastern University](https://www.northeastern.edu) as Lecturer in Data Science and based in their [London Campus](https://www.nulondon.ac.uk).
+
 ## November 2024
 * I have successfully passed my PhD with subject to usual minor corrections.
 
