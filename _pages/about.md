@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hey, I am Waleed Iqbal, an Assistant Professor in Data Science at [Northeastern University](https://www.northeastern.edu), based in their [London Campus](https://www.nulondon.ac.uk). I also hold positions of Teaching Fellow in Computer Science at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/) and Associate Lecturer at [Arden University London](https://arden.ac.uk). I received my PhD in Computer Science under the supervision of [Dr. Ignacio Castro](https://icastro.info/) and [Prof. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/) in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Research Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity. 
+Hey, I am Waleed Iqbal, an Assistant Professor in Data Science at [Northeastern University](https://www.northeastern.edu), based in their [London Campus](https://www.nulondon.ac.uk/people/waleed-iqbal/). I also hold positions of Teaching Fellow in Computer Science at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/) and Associate Lecturer at [Arden University London](https://arden.ac.uk). I received my PhD in Computer Science under the supervision of [Dr. Ignacio Castro](https://icastro.info/) and [Prof. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/) in the [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk), [Networks Research Group](http://networks.eecs.qmul.ac.uk) at [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/), [Queen Mary University of London](https://www.qmul.ac.uk/). My research interests are broadly in Manifestation of Socio-Economic Inequality in Online User Activity. 
 
 
 Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and supervised by [Prof. Dr. Junaid Qadir](http://qufaculty.qu.edu.qa/jqadir/) as a postgraduate thesis student, affiliated researcher and teaching assistant.
@@ -21,14 +21,14 @@ Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptio
 
 # News
 ## June 2025
-* I have been promoted to Assistant Professor in Data Science (Teaching and Scholarship) at [Northeastern University](https://www.northeastern.edu) and will remain based in their [London Campus](https://www.nulondon.ac.uk).
+* I have been promoted to Assistant Professor in Data Science (Teaching and Scholarship) at [Northeastern University](https://www.northeastern.edu) and will remain based in their [London Campus](https://www.nulondon.ac.uk/people/waleed-iqbal/).
 
 ## April 2025
 * I delivered two lectures on Natural Language Processing for [Northeastern University London Campus's](https://www.nulondon.ac.uk) Global Postgraduate Taster Lectures.
 
 
 ## January 2025
-* I have joined [Northeastern University](https://www.northeastern.edu) as Lecturer in Data Science and based in their [London Campus](https://www.nulondon.ac.uk).
+* I have joined [Northeastern University](https://www.northeastern.edu) as Lecturer in Data Science and based in their [London Campus](https://www.nulondon.ac.uk/people/waleed-iqbal/).
 
 ## November 2024
 * I have successfully passed my PhD with subject to usual minor corrections.
