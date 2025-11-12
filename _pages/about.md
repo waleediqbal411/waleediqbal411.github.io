@@ -20,9 +20,6 @@ I received my MSc in Computer Science from [Information Technology University, L
 Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by Royal Academy of Engineering UK and granted Global Talent Visa by The Government of United Kingdom.
 
 # News
-##November 2025
-I am teaching as session on DevOPS in Arden University.
-
 ## June 2025
 * I have been promoted to Assistant Professor in Data Science (Teaching and Scholarship) at [Northeastern University](https://www.northeastern.edu) and will remain based in their [London Campus](https://www.nulondon.ac.uk/people/waleed-iqbal/).
 
