@@ -20,6 +20,9 @@ I received my MSc in Computer Science from [Information Technology University, L
 Since September 2023, I am endorsed and recognised as UK Global Talent (Exceptional Promise) in Research and Academic Category by Royal Academy of Engineering UK and granted Global Talent Visa by The Government of United Kingdom.
 
 # News
+## September 2025
+* Our project (Neighbourhood Signals: Online Discussions and Crime) has secured a funding of £23,794 from National Research Centre on Privacy, Harm Reduction and Adversarial Influence Online (REPHRAIN) under REPHRAIN Safer Streets strand 3. I'll be working as Co Principal Investigator with [Dr. Ignacio Castro, QMUL](https://www.seresearch.qmul.ac.uk/cncs/people/idecastroarribas/#research).
+
 ## June 2025
 * I have been promoted to Assistant Professor in Data Science (Teaching and Scholarship) at [Northeastern University](https://www.northeastern.edu) and will remain based in their [London Campus](https://www.nulondon.ac.uk/people/waleed-iqbal/).
 
