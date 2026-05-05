@@ -51,6 +51,7 @@ interests:
 education:
   - degree: PhD Computer Science
     institution: Queen Mary University of London
+    year: '2020 – 2024'
     date_start: '2020-09-01'
     date_end: '2024-11-30'
     summary: |
@@ -59,6 +60,7 @@ education:
       manifestations of real-world inequalities.
   - degree: MSc Computer Science
     institution: Information Technology University, Lahore, Pakistan
+    year: '2016 – 2018'
     date_start: '2016-09-01'
     date_end: '2018-06-30'
     summary: |
@@ -66,6 +68,7 @@ education:
       computer networking research.
   - degree: BSc Electrical Engineering
     institution: University of The Punjab, Lahore, Pakistan
+    year: '2010 – 2014'
     date_start: '2010-09-01'
     date_end: '2014-02-28'
     summary: |
