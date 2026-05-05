@@ -52,7 +52,7 @@ education:
   - degree: PhD Computer Science
     institution: Queen Mary University of London
     year: '2020 – 2024'
-    date_start: '2020-09-01'
+    date_start: '2020-01-01'
     date_end: '2024-11-30'
     summary: |
       Supervised by Dr. Ignacio Castro and Prof. Gareth Tyson in the Social
@@ -60,17 +60,17 @@ education:
       manifestations of real-world inequalities.
   - degree: MSc Computer Science
     institution: Information Technology University, Lahore, Pakistan
-    year: '2016 – 2018'
-    date_start: '2016-09-01'
+    year: '2015 – 2018'
+    date_start: '2015-11-05'
     date_end: '2018-06-30'
     summary: |
       Graduated with Dean's Roll of Honor. Thesis: Bibliometric analysis of
       computer networking research.
   - degree: BSc Electrical Engineering
     institution: University of The Punjab, Lahore, Pakistan
-    year: '2010 – 2014'
-    date_start: '2010-09-01'
-    date_end: '2014-02-28'
+    year: '2009 – 2013'
+    date_start: '2009-12-30'
+    date_end: '2013-12-31'
     summary: |
       Graduated with Honors.
 
