@@ -1,12 +1,12 @@
 ---
-title: Publications
-cms_exclude: true
+# title: Publications
+# cms_exclude: true
 
-view: citation
+# view: citation
 
-banner:
-  caption: ''
-  image: ''
+# banner:
+#   caption: ''
+#   image: ''
 ---
 You can also find latest updated list of my articles on <u><a href="https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&hl=en">my Google Scholar profile</a>.</u> 
 
@@ -69,7 +69,7 @@ My Erdős number is <u><a href="https://www.csauthors.net/distance/waleed-iqbal/
 <h2>Talks</h2>
 <h3>2023</h3>
 <ol>
-  1. <span style="font-size: medium;"><b>Waleed Iqbal</b>. Exploring Online Manifestations of Real-World Inequalities in Nexdoor Social Network. In 35th Multi-Service Networks workshop <b>(MSN-Coseners 2022)</b>, Abington, Oxfordshire, UK (2023).</span></li>  <br>
+  1. <b>Waleed Iqbal</b>. Exploring Online Manifestations of Real-World Inequalities in Nexdoor Social Network. In 35th Multi-Service Networks workshop <b>(MSN-Coseners 2022)</b>, Abington, Oxfordshire, UK (2023).</span></li>  <br>
   2. <b>Waleed Iqbal</b>. Online Manifestations of Real-World Inequalities in Nexdoor Social Network. In <b>Data Natives</b>, City, University of London, London, UK (2023).</li>
 </ol>
 <h3>2022</h3>
