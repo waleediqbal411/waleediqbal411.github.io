@@ -50,22 +50,24 @@ interests:
   - Natural Language Processing
 
 education:
-  - degree: PhD Computer Science
+  - area: PhD Computer Science
     institution: Queen Mary University of London
-    end: 2024-11
+    date_end: '2024-11'
     summary: |
-        Supervised by Dr. Ignacio Castro and Prof. Gareth Tyson in the Social
-        Data Science (SDS) Lab and Networks Research Group. Thesis on online
-        manifestations of real-world inequalities.
-  - degree: MSc Computer Science
+      Supervised by Dr. Ignacio Castro and Prof. Gareth Tyson in the Social
+      Data Science (SDS) Lab and Networks Research Group. Thesis on online
+      manifestations of real-world inequalities.
+  - area: MSc Computer Science
     institution: Information Technology University, Lahore, Pakistan
-    end: 2018-06
+    date_end: '2018-06'
     summary: |
       Graduated with Dean's Roll of Honor. Thesis: Bibliometric analysis of
       computer networking research.
-  - degree: BSc Electrical Engineering
+  - area: BSc Electrical Engineering
     institution: University of The Punjab, Lahore, Pakistan
-    end: 2014-02
+    date_end: '2014-02'
+    summary: |
+      Graduated with Honors.
 
 awards:
   - title: UK Global Talent (Exceptional Promise) — Research and Academic
