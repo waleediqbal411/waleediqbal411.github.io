@@ -1,0 +1,15 @@
+# Claude Code agent worktrees — ephemeral, never commit
+.claude/
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
+
+# OS
+.DS_Store
