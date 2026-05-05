@@ -31,7 +31,7 @@ sections:
       title: ''
       subtitle: ''
       text: |-
-        Hey, I am **Waleed Iqbal**, an Assistant Professor in Data Science at
+        I am **Waleed Iqbal**, an Assistant Professor in Data Science at
         [Northeastern University](https://www.northeastern.edu), based at their
         [London Campus](https://www.nulondon.ac.uk/people/waleed-iqbal/). I also hold positions
         of Teaching Fellow in Computer Science at the
