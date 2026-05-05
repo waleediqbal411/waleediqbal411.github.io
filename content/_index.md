@@ -26,28 +26,6 @@ sections:
         size: medium
         shape: circle
 
-  - block: collection
-    id: publications
-    content:
-      title: 'Recent Publications'
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-
-  - block: collection
-    id: talks
-    content:
-      title: 'Recent & Upcoming Talks'
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-
   - block: markdown
     id: news
     content:
@@ -134,6 +112,28 @@ sections:
         ## January 2020
         - Started as PhD Student in the [Networks Research Group](http://networks.eecs.qmul.ac.uk),
           [Queen Mary University of London](https://www.qmul.ac.uk/).
+        
+        ## October 2019
+        - Editorial accepted in Computer Communication Review: ["Five Decades Of The ACM Special Interest Group On Data Communications (SIGCOMM) A Bibliometric Perspective"](https://ccronline.sigcomm.org/wp-content/uploads/2019/10/acmdl19-334.pdf).
+
+        ## March 2019
+        - Paper accepted in Springer Scientometrics Journal: ["A Bibliometric Analysis of Publications in Computer Networking Research"](https://arxiv.org/pdf/1903.01517).
+
+        ## August 2019
+        - Graduated from [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) and received my MS Computer Science degree with Dean's Roll of Honor.
+
+        ## June 2018
+        - Successfully defended my MS thesis titled "Analysis of Computer Networking Research: A Bibliometric Study" with no further corrections.
+
+        ## May 2016
+        - Paper accepted in IEEE IWCMC 2016: ["Experimental study of link quality in IEEE 802.15. 4 using Z1 Motes"](https://www.researchgate.net/profile/Waleed_Iqbal/publication/308811406_Experimental_study_of_link_quality_in_IEEE_802154_using_Z1_Motes/links/5bda57d0a6fdcc3a8db3e2be/Experimental-study-of-link-quality-in-IEEE-802154-using-Z1-Motes.pdf).
+
+        ## April 2016
+        - Poster paper accepted in ACM ICTD 2016: ["Bridging Educational Gaps through Volunteers; Implementation, Problems and their Solutions"](https://www.researchgate.net/profile/Waleed_Iqbal/publication/303542794_Bridging_Educational_Gaps_through_Volunteers_Implementation_Problems_and_Their_Solutions/links/5a3986d7aca2728e698788c6/Bridging-Educational-Gaps-through-Volunteers-Implementation-Problems-and-Their-Solutions.pdf).
+
+        ## October 2015
+        - Secured Graduate Student Fellowship at [Information Technology University Lahore, Pakistan](https://itu.edu.pk/) for my MS Computer Science. This fellowship is grant to top 15% students of the batch.
+        
     design:
       columns: '1'
 ---
