@@ -26,43 +26,6 @@ sections:
         size: medium
         shape: circle
 
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: |-
-        I am **Waleed Iqbal**, an Assistant Professor in Data Science at
-        [Northeastern University](https://www.northeastern.edu), based at their
-        [London Campus](https://www.nulondon.ac.uk/people/waleed-iqbal/). I also hold positions
-        of Teaching Fellow in Computer Science at the
-        [School of Electronic Engineering and Computer Science](https://www.eecs.qmul.ac.uk/),
-        [Queen Mary University of London](https://www.qmul.ac.uk/) and Associate Lecturer at
-        [Arden University London](https://arden.ac.uk).
-
-        I received my PhD in Computer Science under the supervision of
-        [Dr. Ignacio Castro](https://www.seresearch.qmul.ac.uk/cncs/people/idecastroarribas/) and
-        [Prof. Gareth Tyson](http://www.eecs.qmul.ac.uk/~tysong/) in the
-        [Social Data Science (SDS) Lab](https://sds.eecs.qmul.ac.uk),
-        [Networks Research Group](http://networks.eecs.qmul.ac.uk) at
-        [Queen Mary University of London](https://www.qmul.ac.uk/). My research interests are
-        broadly in **manifestation of socio-economic inequality in online user activity**.
-
-        Previously, I worked at [IHSAN Lab](http://ihsanlab.itu.edu.pk/) in
-        [Information Technology University Lahore, Pakistan](https://itu.edu.pk/), supervised by
-        [Prof. Dr. Junaid Qadir](http://qufaculty.qu.edu.qa/jqadir/) as a postgraduate thesis
-        student, affiliated researcher, and teaching assistant.
-
-        I received my MSc in Computer Science from
-        [Information Technology University, Lahore, Pakistan](https://itu.edu.pk/) with Dean's
-        Roll of Honor and my BSc in Electrical Engineering with Honors from
-        [University of The Punjab, Lahore, Pakistan](https://pu.edu.pk/).
-
-        Since September 2023, I am endorsed and recognised as **UK Global Talent (Exceptional Promise)**
-        in the Research and Academic Category by the Royal Academy of Engineering UK and granted
-        Global Talent Visa by the Government of the United Kingdom.
-    design:
-      columns: '1'
-
   - block: collection
     id: publications
     content:
