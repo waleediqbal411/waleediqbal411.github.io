@@ -1,15 +1,16 @@
 # Claude Code agent worktrees — ephemeral, never commit
 .claude/
 
-# Jekyll build output
-_site/
-.jekyll-cache/
-.jekyll-metadata
-.sass-cache/
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+assets/jsconfig.json
 
-# Bundler
-.bundle/
-vendor/
+# Node / pnpm
+node_modules/
+.pnpm-store/
 
 # OS
 .DS_Store

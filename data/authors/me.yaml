@@ -1,0 +1,80 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Dr. Waleed Iqbal
+  given: Waleed
+  family: Iqbal
+postnominals:
+  - PhD
+role: Assistant Professor in Data Science
+bio: |
+  Waleed Iqbal is an Assistant Professor in Data Science at Northeastern
+  University London and a Teaching Fellow in Computer Science at Queen Mary
+  University of London. His research investigates how socio-economic
+  inequality manifests in online user activity.
+
+affiliations:
+  - name: Northeastern University London
+    url: https://www.nulondon.ac.uk/people/waleed-iqbal/
+  - name: Queen Mary University of London
+    url: https://www.eecs.qmul.ac.uk/
+
+interests:
+  - Online Manifestation of Socio-Economic Inequality
+  - Computational Social Science
+  - Internet Measurement
+  - Bibliometrics & Science of Science
+  - Natural Language Processing
+
+education:
+  - degree: PhD Computer Science
+    institution: Queen Mary University of London
+    end: 2024-11-01
+    summary: |
+      Supervised by Dr. Ignacio Castro and Prof. Gareth Tyson in the Social
+      Data Science (SDS) Lab and Networks Research Group. Thesis on online
+      manifestations of real-world inequalities.
+  - degree: MSc Computer Science
+    institution: Information Technology University, Lahore, Pakistan
+    end: 2019-08-01
+    summary: |
+      Graduated with Dean's Roll of Honor. Thesis on bibliometric analysis of
+      computer networking research.
+  - degree: BSc Electrical Engineering (Honors)
+    institution: University of The Punjab, Lahore, Pakistan
+
+awards:
+  - title: UK Global Talent (Exceptional Promise) — Research and Academic
+    awarder: Royal Academy of Engineering, UK
+    date: '2023-09-01'
+    summary: |
+      Endorsed and recognised as UK Global Talent in Research and Academic
+      Category; granted Global Talent Visa by the Government of the United Kingdom.
+  - title: Dean's Roll of Honor
+    awarder: Information Technology University, Lahore
+    date: '2019-08-01'
+  - title: Graduate Student Fellowship (top 15%)
+    awarder: Information Technology University, Lahore
+    date: '2015-10-01'
+
+links:
+  - icon: at-symbol
+    url: mailto:w.iqbal@qmul.ac.uk
+    label: Email
+  - icon: brands/x
+    url: https://twitter.com/waleediqbal411
+  - icon: brands/github
+    url: https://github.com/waleediqbal411
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/waleediqbal411/
+  - icon: brands/instagram
+    url: https://instagram.com/iam_waleediqbal
+  - icon: brands/facebook
+    url: https://www.facebook.com/waleediqbal411
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&hl=en
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-9805-5688
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Waleed_Iqbal
