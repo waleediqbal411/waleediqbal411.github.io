@@ -81,7 +81,7 @@ awards:
 
 links:
   - icon: at-symbol
-    url: mailto:w.iqbal@qmul.ac.uk
+    url: mailto:w.iqbal@nulondon.ac.uk
     label: Email
   - icon: brands/x
     url: https://twitter.com/waleediqbal411
@@ -89,10 +89,6 @@ links:
     url: https://github.com/waleediqbal411
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/waleediqbal411/
-  - icon: brands/instagram
-    url: https://instagram.com/iam_waleediqbal
-  - icon: brands/facebook
-    url: https://www.facebook.com/waleediqbal411
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&hl=en
   - icon: academicons/orcid
