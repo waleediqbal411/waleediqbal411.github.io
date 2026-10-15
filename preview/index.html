@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Waleed Iqbal — preview</title>
+<meta name="description" content="Design preview — an original editorial-bold portfolio for Waleed Iqbal, Assistant Professor in Data Science.">
+<link rel="icon" href="../static/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,900&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f3efe7;
+    --ink: #11110f;
+    --muted: #6a665c;
+    --rule: #d8d1c3;
+    --accent: #2d1b69;
+    --accent-ink: #ffffff;
+    --spark: #e5604a;
+    --card: #ebe5d6;
+    --maxw: 1360px;
+    --gutter: clamp(20px, 4vw, 56px);
+    --num: "Fraunces", "Times New Roman", serif;
+    --display: "Fraunces", "Times New Roman", serif;
+    --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  :root:not([data-theme="light"]) {
+    @media (prefers-color-scheme: dark) {
+      --bg: #0f0e14;
+      --ink: #f1ede4;
+      --muted: #918a7e;
+      --rule: #2a2733;
+      --accent: #c8b6ff;
+      --accent-ink: #0f0e14;
+      --spark: #ff8166;
+      --card: #19172100;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f0e14;
+    --ink: #f1ede4;
+    --muted: #918a7e;
+    --rule: #2a2733;
+    --accent: #c8b6ff;
+    --accent-ink: #0f0e14;
+    --spark: #ff8166;
+    --card: #191721;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    transition: background .4s ease, color .4s ease;
+  }
+  a { color: inherit; text-decoration: none; }
+  a:hover { color: var(--spark); }
+
+  /* ─── TOP BAR ──────────────────────────────────── */
+  .topbar {
+    position: fixed; top: 0; left: 0; right: 0;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 18px var(--gutter);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    mix-blend-mode: difference;
+    z-index: 50;
+    pointer-events: none;
+  }
+  .topbar > * { pointer-events: auto; color: #fff; }
+  .topbar .mark { font-weight: 700; letter-spacing: .14em; }
+  .topbar nav a { margin-left: 20px; }
+  .topbar nav a:hover { color: var(--spark); }
+  .theme-toggle {
+    background: none; border: 1px solid currentColor;
+    color: inherit; padding: 6px 10px; cursor: pointer;
+    font: inherit; letter-spacing: .08em; text-transform: uppercase;
+    margin-left: 20px; border-radius: 999px;
+  }
+
+  /* ─── HERO ─────────────────────────────────────── */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 1fr auto;
+    gap: 0 var(--gutter);
+    padding: 110px var(--gutter) 60px;
+    position: relative;
+    border-bottom: 1px solid var(--rule);
+  }
+  .hero .meta {
+    grid-column: 1 / span 12;
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-family: var(--mono); font-size: 12px; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--muted);
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .hero .meta .lot { color: var(--spark); font-weight: 700; }
+  .hero h1 {
+    grid-column: 1 / span 12;
+    align-self: center;
+    margin: 0;
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: clamp(72px, 16vw, 260px);
+    line-height: .88;
+    letter-spacing: -0.035em;
+    font-variation-settings: "opsz" 144;
+    position: relative;
+  }
+  .hero h1 .amp {
+    font-style: italic;
+    color: var(--accent);
+    font-weight: 300;
+    display: inline-block;
+    transform: translateY(.06em);
+  }
+  .hero h1 .dot {
+    display: inline-block; width: .22em; height: .22em;
+    background: var(--spark); border-radius: 50%;
+    vertical-align: baseline; margin: 0 .08em;
+    transform: translateY(-.02em);
+  }
+
+  .hero .footer-row {
+    grid-column: 1 / span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--gutter);
+    padding-top: 32px;
+    border-top: 1px solid var(--rule);
+    align-items: end;
+  }
+  .hero .role {
+    grid-column: 1 / span 6;
+    font-family: var(--display);
+    font-size: clamp(22px, 2.4vw, 32px);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    margin: 0;
+  }
+  .hero .role em { font-style: italic; color: var(--accent); font-weight: 300; }
+  .hero .caption {
+    grid-column: 8 / span 5;
+    font-family: var(--mono); font-size: 12px;
+    letter-spacing: .08em; text-transform: uppercase;
+    color: var(--muted); max-width: 32ch;
+    justify-self: end;
+    text-align: right;
+  }
+  .hero .caption a { color: var(--ink); border-bottom: 1px solid var(--rule); }
+
+  .scroll-cue {
+    position: absolute;
+    bottom: 24px; left: 50%; transform: translateX(-50%);
+    font-family: var(--mono); font-size: 11px; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--muted);
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+  }
+  .scroll-cue::after {
+    content: ""; width: 1px; height: 36px;
+    background: currentColor;
+    animation: pulse 2.4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: .2; transform: scaleY(.3); transform-origin: top; }
+    50%      { opacity: 1;  transform: scaleY(1);   transform-origin: top; }
+  }
+
+  /* ─── SECTION FRAME ────────────────────────────── */
+  section.chapter {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--gutter);
+    padding: 140px var(--gutter);
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+  }
+  .chapter .num {
+    grid-column: 1 / span 2;
+    font-family: var(--display);
+    font-weight: 300;
+    font-size: clamp(64px, 9vw, 160px);
+    line-height: .85;
+    letter-spacing: -0.03em;
+    color: var(--accent);
+    position: sticky;
+    top: 100px;
+    align-self: start;
+  }
+  .chapter .num .slash {
+    display: block; height: 1px; background: var(--rule); width: 60%;
+    margin: 18px 0 10px;
+  }
+  .chapter .num .lbl {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--muted); font-weight: 500;
+  }
+  .chapter .body {
+    grid-column: 4 / span 9;
+  }
+  .chapter h2 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: clamp(38px, 5.4vw, 76px);
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+    margin: 0 0 48px;
+    max-width: 20ch;
+  }
+  .chapter h2 em { font-style: italic; color: var(--accent); font-weight: 300; }
+  .chapter p { font-size: clamp(16px, 1.15vw, 19px); max-width: 62ch; margin: 0 0 1.3em; color: var(--ink); }
+  .chapter p a { border-bottom: 1px solid var(--rule); }
+  .chapter p a:hover { border-color: var(--spark); color: var(--spark); }
+
+  /* ─── RESEARCH CARDS ───────────────────────────── */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px;
+    margin-top: 32px;
+  }
+  .card {
+    grid-column: span 3;
+    background: var(--card);
+    padding: 36px 32px 32px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: transform .4s cubic-bezier(.2,.8,.2,1), background .3s ease;
+    cursor: default;
+  }
+  .card:hover { transform: translateY(-4px); }
+  .card .k {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .18em;
+    color: var(--muted); text-transform: uppercase;
+  }
+  .card h3 {
+    font-family: var(--display); font-weight: 400;
+    font-size: 28px; letter-spacing: -0.015em; line-height: 1.1;
+    margin: 18px 0 14px;
+  }
+  .card p { font-size: 15px; color: var(--muted); margin: 0; max-width: none; }
+  .card::after {
+    content: ""; position: absolute; bottom: 0; left: 0; right: 0;
+    height: 4px; background: var(--accent);
+    transform: scaleX(0); transform-origin: left;
+    transition: transform .5s cubic-bezier(.2,.8,.2,1);
+  }
+  .card:hover::after { transform: scaleX(1); }
+
+  /* ─── TIMELINE (teaching/education) ────────────── */
+  .timeline { margin-top: 32px; }
+  .timeline li {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 110px 1fr auto;
+    gap: 32px;
+    padding: 28px 0;
+    border-top: 1px solid var(--rule);
+    align-items: baseline;
+    transition: background .3s ease, padding .3s ease;
+  }
+  .timeline li:last-child { border-bottom: 1px solid var(--rule); }
+  .timeline li:hover { padding-left: 16px; }
+  .timeline .yr {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .1em;
+    color: var(--muted); text-transform: uppercase;
+  }
+  .timeline .what {
+    font-family: var(--display); font-size: clamp(20px, 2.1vw, 28px);
+    font-weight: 400; letter-spacing: -0.015em; line-height: 1.2;
+  }
+  .timeline .where { color: var(--muted); font-size: 14px; }
+
+  /* ─── CONTACT ──────────────────────────────────── */
+  .contact {
+    padding: 160px var(--gutter) 80px;
+    background: var(--accent);
+    color: var(--accent-ink);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--gutter);
+  }
+  .contact .num { color: var(--accent-ink); opacity: .5; }
+  .contact .num .lbl { color: var(--accent-ink); opacity: .7; }
+  .contact .num .slash { background: currentColor; opacity: .3; }
+  .contact h2 { color: var(--accent-ink); margin-bottom: 24px; }
+  .contact .email {
+    font-family: var(--display); font-weight: 300;
+    font-size: clamp(32px, 5.6vw, 92px);
+    letter-spacing: -0.025em;
+    line-height: 1;
+    word-break: break-word;
+    display: inline-block;
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 12px;
+    margin-bottom: 56px;
+    transition: color .3s ease;
+  }
+  .contact .email:hover { color: var(--spark); border-color: var(--spark); }
+  .contact .socials {
+    grid-column: 4 / span 9;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px 32px;
+    margin-top: 24px;
+  }
+  .contact .socials a {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 14px 0; border-bottom: 1px solid currentColor;
+    font-family: var(--display); font-size: 22px;
+    opacity: .95;
+    transition: padding .3s ease, color .3s ease;
+  }
+  .contact .socials a:hover { padding-left: 10px; color: var(--spark); }
+  .contact .socials a .k {
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: .18em; text-transform: uppercase; opacity: .7;
+  }
+
+  /* ─── COLOPHON ─────────────────────────────────── */
+  footer.colophon {
+    padding: 40px var(--gutter);
+    display: flex; justify-content: space-between;
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+    background: var(--bg);
+  }
+
+  /* ─── MOBILE ───────────────────────────────────── */
+  @media (max-width: 900px) {
+    .hero .footer-row { grid-template-columns: 1fr; gap: 24px; }
+    .hero .role, .hero .caption { grid-column: 1 / -1; justify-self: start; text-align: left; max-width: none; }
+    .hero .caption { font-size: 11px; }
+    .chapter { padding: 90px var(--gutter); }
+    .chapter .num { position: static; grid-column: 1 / -1; font-size: 72px; margin-bottom: 24px; }
+    .chapter .body { grid-column: 1 / -1; }
+    .cards .card { grid-column: 1 / -1; }
+    .timeline li { grid-template-columns: 1fr; gap: 6px; padding: 20px 0; }
+    .contact .socials { grid-column: 1 / -1; grid-template-columns: 1fr 1fr; }
+    .topbar nav { display: none; }
+  }
+
+  /* ─── REVEAL ───────────────────────────────────── */
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity .9s ease, transform .9s cubic-bezier(.2,.8,.2,1); }
+  .reveal.in  { opacity: 1; transform: none; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="mark">WI · MMXXVI</span>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#contact">Contact</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">Theme</button>
+  </nav>
+</div>
+
+<header class="hero">
+  <div class="meta">
+    <span>Portfolio · Volume VII</span>
+    <span class="lot">Issue 2026 — London</span>
+    <span>Est. QMUL · NUL</span>
+  </div>
+
+  <h1>
+    Waleed<br>Iqbal<span class="dot"></span>
+  </h1>
+
+  <div class="footer-row">
+    <p class="role">
+      Assistant Professor in <em>Data Science</em>,<br>
+      building the quiet maths behind online inequality.
+    </p>
+    <p class="caption">
+      A working portfolio.<br>
+      Research, teaching, and the occasional essay.<br>
+      <a href="#about">Begin the tour →</a>
+    </p>
+  </div>
+
+  <div class="scroll-cue">Scroll</div>
+</header>
+
+<section class="chapter reveal" id="about">
+  <div class="num">01<span class="slash"></span><span class="lbl">About</span></div>
+  <div class="body">
+    <h2>I study the <em>shapes</em> that inequality makes online.</h2>
+    <p>I am an Assistant Professor in Data Science at <a href="https://www.nulondon.ac.uk/people/waleed-iqbal/">Northeastern University London</a>, and a Teaching Fellow at the <a href="https://www.eecs.qmul.ac.uk/">School of Electronic Engineering and Computer Science</a>, <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a>.</p>
+    <p>My PhD, supervised by Dr. Ignacio Castro and Prof. Gareth Tyson in the Social Data Science Lab, looked at how socio-economic inequalities surface in digital traces — what people search for, who they read, how platforms route attention. The question keeps me busy.</p>
+    <p>Since 2023 I have been recognised as <strong>UK Global Talent (Exceptional Promise)</strong> in Research and Academia by the Royal Academy of Engineering.</p>
+  </div>
+</section>
+
+<section class="chapter reveal" id="research">
+  <div class="num">02<span class="slash"></span><span class="lbl">Research</span></div>
+  <div class="body">
+    <h2>Five <em>threads</em> running through the work.</h2>
+    <p>Different projects, same underlying question: when the social world moves online, which inequalities travel with it, and which new ones does the medium invent?</p>
+    <div class="cards">
+      <div class="card">
+        <span class="k">Thread 01</span>
+        <h3>Socio-economic inequality online</h3>
+        <p>Measuring how income, geography, and language shape digital participation at platform scale.</p>
+      </div>
+      <div class="card">
+        <span class="k">Thread 02</span>
+        <h3>Computational social science</h3>
+        <p>Methods for drawing honest social inferences from very large, very messy behavioural data.</p>
+      </div>
+      <div class="card">
+        <span class="k">Thread 03</span>
+        <h3>Internet measurement</h3>
+        <p>Instrumenting the open web to understand infrastructure, outages, and the quiet politics of routing.</p>
+      </div>
+      <div class="card">
+        <span class="k">Thread 04</span>
+        <h3>Bibliometrics &amp; science of science</h3>
+        <p>How the research community itself produces, cites, and sometimes forgets its own ideas.</p>
+      </div>
+      <div class="card">
+        <span class="k">Thread 05</span>
+        <h3>Natural language processing</h3>
+        <p>Language as evidence: using NLP to turn text at scale into social measurement.</p>
+      </div>
+      <div class="card" style="background:transparent; border:1px dashed var(--rule);">
+        <span class="k">Appendix</span>
+        <h3>Full list of publications →</h3>
+        <p><a href="https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0002-9805-5688">ORCID</a> · <a href="https://www.researchgate.net/profile/Waleed_Iqbal">ResearchGate</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="chapter reveal" id="teaching">
+  <div class="num">03<span class="slash"></span><span class="lbl">Teaching</span></div>
+  <div class="body">
+    <h2>Teaching, in <em>reverse</em> chronology.</h2>
+    <p>A short list of what I have taught, or still teach. For reading lists, slides, and office hours, visit the module page or email me.</p>
+    <ul class="timeline">
+      <li>
+        <span class="yr">2024 —</span>
+        <span class="what">Data Science Fundamentals</span>
+        <span class="where">Northeastern Univ. London</span>
+      </li>
+      <li>
+        <span class="yr">2023 —</span>
+        <span class="what">Advanced Programming for Data Science</span>
+        <span class="where">Northeastern Univ. London</span>
+      </li>
+      <li>
+        <span class="yr">2022 —</span>
+        <span class="what">Machine Learning for Visual Data Analysis</span>
+        <span class="where">Queen Mary Univ. of London</span>
+      </li>
+      <li>
+        <span class="yr">2021 —</span>
+        <span class="what">Social &amp; Economic Networks</span>
+        <span class="where">Queen Mary Univ. of London</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="chapter reveal" id="recognition">
+  <div class="num">04<span class="slash"></span><span class="lbl">Recognition</span></div>
+  <div class="body">
+    <h2>Awards, honours and the occasional <em>fellowship</em>.</h2>
+    <ul class="timeline">
+      <li>
+        <span class="yr">2023</span>
+        <span class="what">UK Global Talent (Exceptional Promise)</span>
+        <span class="where">Royal Academy of Engineering, UK</span>
+      </li>
+      <li>
+        <span class="yr">2019</span>
+        <span class="what">Dean's Roll of Honor</span>
+        <span class="where">ITU Lahore</span>
+      </li>
+      <li>
+        <span class="yr">2015</span>
+        <span class="what">Graduate Student Fellowship (top 15%)</span>
+        <span class="where">ITU Lahore</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="chapter contact reveal" id="contact">
+  <div class="num">05<span class="slash"></span><span class="lbl">Contact</span></div>
+  <div class="body">
+    <h2>Say hello — <em>I reply.</em></h2>
+    <a class="email" href="mailto:w.iqbal@qmul.ac.uk">w.iqbal@qmul.ac.uk</a>
+    <div class="socials">
+      <a href="https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&amp;hl=en">Google Scholar <span class="k">↗</span></a>
+      <a href="https://orcid.org/0000-0002-9805-5688">ORCID <span class="k">↗</span></a>
+      <a href="https://github.com/waleediqbal411">GitHub <span class="k">↗</span></a>
+      <a href="https://twitter.com/waleediqbal411">Twitter <span class="k">↗</span></a>
+      <a href="https://www.linkedin.com/in/waleediqbal411">LinkedIn <span class="k">↗</span></a>
+      <a href="https://www.researchgate.net/profile/Waleed_Iqbal">ResearchGate <span class="k">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="colophon">
+  <span>© 2026 Waleed Iqbal · Preview design</span>
+  <span>Set in Fraunces &amp; Inter · Hand-built</span>
+</footer>
+
+<script>
+  // Theme toggle (light / dark / auto)
+  const root = document.documentElement;
+  const btn = document.getElementById('themeToggle');
+  const saved = localStorage.getItem('theme') || 'auto';
+  root.setAttribute('data-theme', saved);
+  const nextTheme = { auto: 'light', light: 'dark', dark: 'auto' };
+  btn.textContent = saved === 'auto' ? 'Auto' : saved[0].toUpperCase() + saved.slice(1);
+  btn.addEventListener('click', () => {
+    const curr = root.getAttribute('data-theme') || 'auto';
+    const next = nextTheme[curr];
+    root.setAttribute('data-theme', next);
+    btn.textContent = next === 'auto' ? 'Auto' : next[0].toUpperCase() + next.slice(1);
+    try { localStorage.setItem('theme', next); } catch (_) {}
+  });
+
+  // Simple reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
