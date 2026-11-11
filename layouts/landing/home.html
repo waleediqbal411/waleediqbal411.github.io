@@ -310,9 +310,6 @@
             {{- end }}
           {{- end }}
         {{- end }}
-        {{- with .Params.abstract }}
-        <div class="abstract">{{ . | plainify | truncate 240 }}</div>
-        {{- end }}
         {{- with .Params.links }}
         <div class="links">
           {{- range . -}}
