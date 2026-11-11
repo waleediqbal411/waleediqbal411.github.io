@@ -3,9 +3,9 @@ title: "IslamicLegalBench: Evaluating LLMs' Knowledge and Reasoning of Islamic L
 authors:
   - Ezieddin Elmahjub
   - Junaid Qadir
-  - Ahmad Mushtaq
-  - Rushna Naeem
-  - Imran Ghaznavi
+  - Abdullah Mushtaq
+  - Rafay Naeem
+  - Ibrahim Ghaznavi
   - me
 date: '2026-01-01T00:00:00Z'
 publication_types: ['article-journal']
