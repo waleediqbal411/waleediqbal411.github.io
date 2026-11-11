@@ -22,9 +22,7 @@ abstract: |
   analysis of papers produced in this short span of time, and highlight common challenges and
   pitfalls observed across the surveyed works.
 tags:
-  - COVID-19
-  - Data Science
-  - Review
+  - Computational Social Science
 featured: false
 
 links:

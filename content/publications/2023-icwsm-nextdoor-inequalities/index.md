@@ -13,9 +13,8 @@ publication_short: 'ICWSM'
 abstract: |
   Using data from the Nextdoor neighbourhood social network, we show how offline socio-economic inequalities surface in online local discussion: in topic choice, reporting intensity, and which neighbours get heard.
 tags:
-  - Inequality
-  - Nextdoor
-  - Social Networks
+  - Computational Social Science
+  - Natural Language Processing
 featured: true
 scholar_id: Tyk-4Ss8FVUC
 

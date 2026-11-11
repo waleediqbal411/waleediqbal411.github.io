@@ -12,9 +12,7 @@ publication_short: 'AINTEC'
 abstract: |
   A quantitative study of how Reddit's volunteer moderators coped with the COVID-19 information surge: which rules changed, which communities tightened or loosened, and how the burden was distributed.
 tags:
-  - Content Moderation
-  - Reddit
-  - COVID-19
+  - Computational Social Science
 featured: true
 scholar_id: _FxGoFyzp5QC
 

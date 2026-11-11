@@ -15,9 +15,8 @@ publication_short: 'SNAM'
 abstract: |
   A longitudinal study of COVID-19-related WhatsApp forwards collected from public groups in Pakistan, characterising the kinds of content people shared, how misinformation travelled, and the differences across languages and regions.
 tags:
-  - WhatsApp
-  - COVID-19
-  - Misinformation
+  - Computational Social Science
+  - Natural Language Processing
 featured: true
 scholar_id: 5nxA0vEk-isC
 

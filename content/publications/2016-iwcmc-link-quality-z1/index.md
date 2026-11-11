@@ -19,8 +19,7 @@ abstract: |
   delivery ratio are largely unaffected. Non-interfering channels 26 and 15 are similarly affected
   by Wi-Fi. Contiki MAC outperforms XMAC.
 tags:
-  - IoT
-  - Wireless Networks
+  - Computer Networks
 featured: false
 
 links:
