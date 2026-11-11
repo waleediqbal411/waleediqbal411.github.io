@@ -7,6 +7,14 @@
 {{- $author := index site.Data.authors "me" -}}
 {{- $pubs := where site.RegularPages "Section" "publications" -}}
 {{- $pubs = $pubs.ByDate.Reverse -}}
+{{- $citations := dict -}}
+{{- with site.Data.citations -}}
+  {{- $citations = .entries -}}
+{{- end -}}
+{{- $citationsUpdated := "" -}}
+{{- with site.Data.citations -}}
+  {{- $citationsUpdated = (printf "%v" .updated) -}}
+{{- end -}}
 {{- $teaching := where site.RegularPages "Section" "teaching" -}}
 {{- $portraitURL := "" -}}
 {{- with resources.Get "media/profile.jpg" -}}
@@ -114,7 +122,9 @@
   .pub .body .title a:hover{color:var(--accent)}
   .pub .body .authors{font-size:14px;color:var(--text);margin-bottom:2px;line-height:1.5}
   .pub .body .authors .me{color:var(--accent);font-weight:600}
-  .pub .body .venue{font-style:italic;font-size:13.5px;color:var(--text-muted);margin-bottom:10px}
+  .pub .body .venue{font-style:italic;font-size:13.5px;color:var(--text-muted);margin-bottom:6px}
+  .pub .body .cites{display:inline-flex;align-items:center;gap:4px;margin-bottom:10px;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.04em}
+  .pub .body .cites::before{content:"▲";font-size:9px}
   .pub .body .abstract{font-size:13.5px;color:var(--text-muted);margin:2px 0 10px;line-height:1.5;max-width:60ch}
   .pub .body .links{display:flex;flex-wrap:wrap;gap:8px}
   .pub .body .links a{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:4px;background:transparent;border:1px solid var(--rule);font-size:12px;color:var(--text);text-transform:uppercase;letter-spacing:.04em;font-family:var(--mono);transition:background .15s ease, color .15s ease}
@@ -271,6 +281,13 @@
         {{- with .Params.publication }}
         <div class="venue">{{ . | markdownify }}</div>
         {{- end }}
+        {{- with .Params.scholar_id }}
+          {{- with index $citations . }}
+            {{- if gt (int .cites) 0 }}
+        <div class="cites" title="Citations from Google Scholar, updated {{ $citationsUpdated }}">{{ .cites }} citations</div>
+            {{- end }}
+          {{- end }}
+        {{- end }}
         {{- with .Params.abstract }}
         <div class="abstract">{{ . | plainify | truncate 240 }}</div>
         {{- end }}
@@ -286,7 +303,12 @@
     {{ end }}
     </div>
 
-    <p class="more-link">→ Full list on <a href="https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&amp;hl=en">Google Scholar</a>.</p>
+    <p class="more-link">
+      → Full list on <a href="https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&amp;hl=en">Google Scholar</a>.
+      {{- with $citationsUpdated }}
+      <span style="float:right;color:var(--text-muted);font-size:12px">Citations updated {{ . }}</span>
+      {{- end }}
+    </p>
   </section>
 
   <!-- ─── TEACHING ──────────────────────── -->

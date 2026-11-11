@@ -28,4 +28,5 @@ links:
     url: https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/61810/Tyson%20Five%20decades%20of%20the%20ACM%202019%20Accepted.pdf?sequence=2&isAllowed=y
   - type: doi
     url: https://doi.org/10.1145/3371934.3371948
+scholar_id: 3fE2CSJIrl8C
 ---

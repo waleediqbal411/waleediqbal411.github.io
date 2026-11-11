@@ -28,4 +28,5 @@ links:
     url: https://www.researchgate.net/profile/Waleed_Iqbal/publication/308811406_Experimental_study_of_link_quality_in_IEEE_802154_using_Z1_Motes/links/5bda57d0a6fdcc3a8db3e2be/Experimental-study-of-link-quality-in-IEEE-802154-using-Z1-Motes.pdf
   - type: doi
     url: https://doi.org/10.1109/IWCMC.2016.7577165
+scholar_id: roLk4NBRz8UC
 ---
