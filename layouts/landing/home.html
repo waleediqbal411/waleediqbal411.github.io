@@ -252,9 +252,9 @@
 
   <!-- ─── PUBLICATIONS ───────────────────── -->
   <section id="pubs">
-    <h2>selected publications</h2>
+    <h2>publications</h2>
 
-    {{ range first 10 $pubs }}
+    {{ range $pubs }}
     <div class="pub">
       <div class="year"><span>{{ .Date.Format "2006" }}</span></div>
       <div class="body">
