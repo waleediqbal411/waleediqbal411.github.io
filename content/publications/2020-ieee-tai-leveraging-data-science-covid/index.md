@@ -32,4 +32,5 @@ links:
     url: https://ieeexplore.ieee.org/ielaam/9078688/9271839/9184922-aam.pdf
   - type: doi
     url: https://doi.org/10.36227/techrxiv.12212516.v1
+scholar_id: qjMakFHDy7sC
 ---

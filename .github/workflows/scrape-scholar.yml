@@ -1,0 +1,101 @@
+name: Refresh Google Scholar citations
+
+on:
+  schedule:
+    # 03:17 UTC daily — off-hour, jittered minute to avoid the top of the hour.
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-scholar
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Scholar profile and update data/citations.yaml
+        id: scrape
+        env:
+          SCHOLAR_USER: Dp1nYx4AAAAJ
+        run: |
+          set -euo pipefail
+          mkdir -p data
+
+          # Scrape Scholar with a real-browser User-Agent. The runner IP will
+          # often hit CAPTCHA/rate-limits after a few requests — the Action
+          # will fail "soft" in that case and leave the previous data file
+          # untouched. That is fine; the site keeps serving the last known
+          # citation counts.
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+          url="https://scholar.google.com/citations?user=${SCHOLAR_USER}&hl=en&pagesize=100"
+          http_code=$(curl -sS -A "$UA" -o scholar.html -w "%{http_code}" "$url" || echo 000)
+          echo "HTTP ${http_code}, $(wc -c <scholar.html) bytes"
+          if [ "$http_code" != "200" ] || grep -qi 'detected unusual traffic\|please show you.re not a robot\|captcha' scholar.html; then
+            echo "::warning::Scholar refused the scrape (HTTP ${http_code} or CAPTCHA). Keeping last data/citations.yaml."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          python3 - <<'PY'
+          import re, html, pathlib, datetime
+          raw = pathlib.Path("scholar.html").read_text()
+          rows = re.findall(r'<tr class="gsc_a_tr">(.*?)</tr>', raw, re.DOTALL)
+          def clean(s):
+              s = re.sub(r"<[^>]+>", "", s)
+              return html.unescape(s).strip()
+          papers = []
+          for row in rows:
+              title_m = re.search(r'<a [^>]*class="gsc_a_at"[^>]*>(.*?)</a>', row, re.DOTALL)
+              link_m  = re.search(r'href="([^"]+)"[^>]*class="gsc_a_at"|class="gsc_a_at"[^>]*href="([^"]+)"', row)
+              cit     = re.search(r'<a[^>]*class="gsc_a_ac[^"]*"[^>]*>(.*?)</a>', row, re.DOTALL)
+              if not title_m or not link_m:
+                  continue
+              link = link_m.group(1) or link_m.group(2)
+              sid_m = re.search(r'citation_for_view=[^:]+:([^&]+)', link)
+              if not sid_m:
+                  continue
+              cites_txt = clean(cit.group(1)) if cit else ""
+              cites = int(cites_txt) if cites_txt.isdigit() else 0
+              papers.append((sid_m.group(1), clean(title_m.group(1)), cites))
+          if not papers:
+              raise SystemExit("Scholar parse produced zero papers; aborting without overwrite")
+          out = [
+              "# Automatically maintained by .github/workflows/scrape-scholar.yml.",
+              "# Keys are Google Scholar citation_for_view IDs.",
+              "# Hand edits here will be overwritten on the next scrape.",
+              f"updated: {datetime.date.today().isoformat()}",
+              "entries:",
+          ]
+          for sid, title, cites in papers:
+              title_esc = title.replace('"', '\\"')[:90]
+              out += [
+                  f'  "{sid}":',
+                  f"    cites: {cites}",
+                  f'    title: "{title_esc}"',
+              ]
+          pathlib.Path("data/citations.yaml").write_text("\n".join(out) + "\n")
+          print(f"wrote {len(papers)} entries to data/citations.yaml")
+          PY
+
+          rm -f scholar.html
+          if git diff --quiet data/citations.yaml; then
+            echo "No change in citation counts."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated citations
+        if: steps.scrape.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/citations.yaml
+          git commit -m "chore: refresh Google Scholar citation counts"
+          git push

@@ -26,4 +26,5 @@ links:
     url: https://www.researchgate.net/profile/Waleed_Iqbal/publication/303542794_Bridging_Educational_Gaps_through_Volunteers_Implementation_Problems_and_Their_Solutions/links/5a3986d7aca2728e698788c6/Bridging-Educational-Gaps-through-Volunteers-Implementation-Problems-and-Their-Solutions.pdf
   - type: doi
     url: https://doi.org/10.1145/2909609.2909627
+scholar_id: MXK_kJrjxJIC
 ---
