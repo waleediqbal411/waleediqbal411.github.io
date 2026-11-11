@@ -3,7 +3,7 @@ title: "Data-Driven Artificial Intelligence in Education: A Comprehensive Review
 authors:
   - Kashif Ahmad
   - me
-  - Ala Al-Hassan
+  - Ammar El-Hassan
   - Junaid Qadir
   - Driss Benhaddou
   - Moussa Ayyash
