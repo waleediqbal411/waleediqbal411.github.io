@@ -17,9 +17,8 @@ publication_short: 'IMC'
 abstract: |
   An empirical study of the IETF standards process: which RFCs attract implementation and deployment, which languish, and what the social and institutional structure of the IETF reveals about who gets heard.
 tags:
-  - IETF
   - Internet Measurement
-  - Standards
+  - Computer Networks
 featured: true
 scholar_id: UebtZRa9Y70C
 

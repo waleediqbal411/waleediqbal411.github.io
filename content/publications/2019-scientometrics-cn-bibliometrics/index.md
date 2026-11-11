@@ -19,8 +19,8 @@ abstract: |
   authors, institutes and countries, and propose a methodology and framework for bibliometric
   analysis on computer networking research.
 tags:
-  - Bibliometrics
-  - Science of Science
+  - Bibliometrics & Science of Science
+  - Computer Networks
 featured: true
 
 links:

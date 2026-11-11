@@ -15,9 +15,7 @@ publication_short: 'IEEE TLT'
 abstract: |
   A comprehensive review of data-driven and artificial-intelligence approaches used across educational technology, covering recommender systems for learners, learning analytics, adaptive tutoring, and the ethical and privacy implications of deploying AI at scale in classrooms.
 tags:
-  - AI
-  - Education
-  - Review
+  - AI for Education
 featured: true
 scholar_id: 2osOgNQ5qMEC
 

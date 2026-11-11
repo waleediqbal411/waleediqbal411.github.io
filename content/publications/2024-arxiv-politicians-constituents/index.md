@@ -11,9 +11,8 @@ publication_short: 'arXiv'
 abstract: |
   We measure the gap between elected representatives and their constituents in the discourse they generate online — the topics they emphasise, the sentiment they use, and the degree to which representation resembles the represented.
 tags:
-  - Politics
-  - Discourse
-  - Social Networks
+  - Computational Social Science
+  - Natural Language Processing
 featured: false
 scholar_id: zYLM7Y9cAGgC
 

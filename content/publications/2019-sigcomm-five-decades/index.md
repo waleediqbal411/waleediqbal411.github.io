@@ -19,8 +19,8 @@ abstract: |
   HotNets — and explore trends in co-authorship, country-based productivity, and knowledge flow
   to and from SIGCOMM venues using bibliometric techniques.
 tags:
-  - Bibliometrics
-  - Networking
+  - Bibliometrics & Science of Science
+  - Computer Networks
 featured: true
 
 links:

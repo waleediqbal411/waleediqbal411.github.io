@@ -23,9 +23,7 @@ abstract: |
   flow of information across WhatsApp and Twitter — showing how WhatsApp acts as a source for
   much of the information shared on Twitter.
 tags:
-  - WhatsApp
-  - COVID-19
-  - Misinformation
+  - Computational Social Science
 featured: true
 
 links:

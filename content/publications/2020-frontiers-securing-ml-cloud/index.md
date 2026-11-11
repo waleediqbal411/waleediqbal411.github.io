@@ -19,9 +19,7 @@ abstract: |
   attacks and defenses dimensions: 31 articles, 19 attack-focused, 6 defense-focused, 6 both.
   We highlight limitations, pitfalls, and open research issues for cloud-hosted ML security.
 tags:
-  - Machine Learning
-  - Security
-  - Review
+  - Computer Networks
 featured: false
 
 links:

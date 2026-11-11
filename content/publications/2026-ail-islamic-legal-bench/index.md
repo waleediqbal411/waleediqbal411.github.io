@@ -14,9 +14,7 @@ publication_short: 'AI & Law'
 abstract: |
   A benchmark for evaluating how well large language models understand and reason about Islamic legal traditions across more than a millennium of pluralist jurisprudence, with implications for cross-cultural benchmarks of model knowledge.
 tags:
-  - LLM
-  - Benchmark
-  - Law
+  - Natural Language Processing
 featured: true
 scholar_id: 4TOpqqG69KYC
 ---
