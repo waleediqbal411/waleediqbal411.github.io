@@ -130,8 +130,16 @@
   .pub .body .links a{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:4px;background:transparent;border:1px solid var(--rule);font-size:12px;color:var(--text);text-transform:uppercase;letter-spacing:.04em;font-family:var(--mono);transition:background .15s ease, color .15s ease}
   .pub .body .links a:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);text-decoration:none}
   #pubs .scroll{max-height:520px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;padding:0 20px;margin-top:6px}
+  #pubs .scroll .pub.hidden{display:none}
   #pubs .scroll .pub:last-child{border-bottom:0}
   #pubs .more-link{margin-top:24px;font-size:14px}
+  #pubs .active-filter{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 8px;padding:8px 14px;background:var(--accent-soft);color:var(--accent);border-radius:4px;font-size:13px;font-family:var(--mono)}
+  #pubs .active-filter button{background:transparent;border:0;color:inherit;cursor:pointer;font:inherit;padding:2px 8px;border-radius:999px}
+  #pubs .active-filter button:hover{background:rgba(0,0,0,.08)}
+  .pub .body .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .pub .body .tag{display:inline-block;padding:3px 10px;border-radius:999px;background:transparent;border:1px solid var(--rule);color:var(--text-muted);font-family:var(--sans);font-size:11.5px;cursor:pointer;transition:background .15s ease, color .15s ease, border-color .15s ease}
+  .pub .body .tag:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
+  .pub .body .tag.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 
   .list{list-style:none;padding:0;margin:0}
   .list li{display:grid;grid-template-columns:92px 1fr auto;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
@@ -266,9 +274,14 @@
   <section id="pubs">
     <h2>publications</h2>
 
-    <div class="scroll">
+    <div class="active-filter" id="pubFilter" hidden>
+      <span>Showing papers tagged <strong id="pubFilterTag"></strong></span>
+      <button type="button" id="pubFilterClear" aria-label="Clear filter">clear ×</button>
+    </div>
+
+    <div class="scroll" id="pubsScroll">
     {{ range $pubs }}
-    <div class="pub">
+    <div class="pub" data-tags="{{ delimit .Params.tags "|" | lower }}">
       <div class="year"><span>{{ .Date.Format "2006" }}</span></div>
       <div class="body">
         <span class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
@@ -295,6 +308,13 @@
         <div class="links">
           {{- range . -}}
           <a href="{{ .url }}">{{ .type | upper }}</a>
+          {{- end -}}
+        </div>
+        {{- end }}
+        {{- with .Params.tags }}
+        <div class="tags">
+          {{- range . -}}
+          <button type="button" class="tag" data-tag="{{ . | lower }}">{{ . }}</button>
           {{- end -}}
         </div>
         {{- end }}
@@ -385,6 +405,50 @@
     });
   }, { rootMargin: "-40% 0px -55% 0px" });
   map.forEach((_, el) => io.observe(el));
+
+  // Publication tag filter
+  (function(){
+    const scroll     = document.getElementById('pubsScroll');
+    const filterBar  = document.getElementById('pubFilter');
+    const filterTag  = document.getElementById('pubFilterTag');
+    const clearBtn   = document.getElementById('pubFilterClear');
+    if (!scroll || !filterBar) return;
+    const pubs = Array.from(scroll.querySelectorAll('.pub'));
+    const allTags = scroll.querySelectorAll('.tag');
+    let activeTag = null;
+
+    function applyFilter(tag){
+      activeTag = tag;
+      if (tag) {
+        pubs.forEach(p => {
+          const tags = (p.dataset.tags || '').split('|').filter(Boolean);
+          p.classList.toggle('hidden', !tags.includes(tag));
+        });
+        allTags.forEach(t => t.classList.toggle('active', t.dataset.tag === tag));
+        filterTag.textContent = tag;
+        filterBar.hidden = false;
+        scroll.scrollTop = 0;
+      } else {
+        pubs.forEach(p => p.classList.remove('hidden'));
+        allTags.forEach(t => t.classList.remove('active'));
+        filterBar.hidden = true;
+      }
+      try {
+        if (tag) history.replaceState(null, '', '#pubs=' + encodeURIComponent(tag));
+        else if (location.hash.startsWith('#pubs=')) history.replaceState(null, '', '#pubs');
+      } catch(_){}
+    }
+
+    allTags.forEach(t => t.addEventListener('click', () => {
+      const tag = t.dataset.tag;
+      applyFilter(activeTag === tag ? null : tag);
+    }));
+    clearBtn.addEventListener('click', () => applyFilter(null));
+
+    // Deep-link: #pubs=<tag>
+    const m = decodeURIComponent(location.hash).match(/^#pubs=(.+)$/);
+    if (m) applyFilter(m[1].toLowerCase());
+  })();
 </script>
 </body>
 </html>
