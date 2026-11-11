@@ -1,0 +1,366 @@
+{{/*
+  layouts/landing/home.html
+  Full-page override for the home (content/_index.md has `type: landing`).
+  Design adapted from al-folio (github.com/alshedivat/al-folio), MIT.
+  Content pulled from data/authors/me.yaml and content/publications/*.
+*/}}
+{{- $author := index site.Data.authors "me" -}}
+{{- $pubs := where site.RegularPages "Section" "publications" -}}
+{{- $pubs = $pubs.ByDate.Reverse -}}
+{{- $teaching := where site.RegularPages "Section" "teaching" -}}
+{{- $portraitURL := "" -}}
+{{- with resources.Get "media/profile.jpg" -}}
+  {{- $p := .Fill "500x500 Center" -}}
+  {{- $portraitURL = $p.RelPermalink -}}
+{{- end -}}
+<!doctype html>
+<html lang="{{ site.Language.Lang | default "en" }}" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.Title }}</title>
+<meta name="description" content="Waleed Iqbal — Assistant Professor in Data Science at Northeastern University London, Teaching Fellow at Queen Mary University of London.">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff; --surface:#f7f7f7; --text:#000; --text-muted:#828282;
+    --heading:#000; --rule:#e5e5e5; --accent:#b509ac; --accent-soft:#f1e3f1;
+    --code-bg:#f5f5f5;
+    --shadow:0 1px 3px rgba(0,0,0,.06), 0 2px 10px rgba(0,0,0,.04);
+    --serif:"Roboto Slab","Times New Roman",serif;
+    --sans:"Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono","SF Mono",ui-monospace,Menlo,monospace;
+  }
+  :root[data-theme="dark"]{
+    --bg:#1c1c1d; --surface:#24242a; --text:#e3e3e3; --text-muted:#9ea2a7;
+    --heading:#fff; --rule:#353538; --accent:#e879d9;
+    --accent-soft:rgba(232,121,217,.12); --code-bg:#2b2b31;
+    --shadow:0 1px 3px rgba(0,0,0,.4),0 6px 20px rgba(0,0,0,.3);
+  }
+  @media (prefers-color-scheme: dark){
+    :root[data-theme="auto"]{
+      --bg:#1c1c1d; --surface:#24242a; --text:#e3e3e3; --text-muted:#9ea2a7;
+      --heading:#fff; --rule:#353538; --accent:#e879d9;
+      --accent-soft:rgba(232,121,217,.12); --code-bg:#2b2b31;
+      --shadow:0 1px 3px rgba(0,0,0,.4),0 6px 20px rgba(0,0,0,.3);
+    }
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth; background:var(--bg)}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  strong,b{color:var(--heading);font-weight:600}
+
+  nav.top{position:sticky;top:0;z-index:40;display:flex;justify-content:space-between;align-items:center;padding:12px 40px;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+  :root[data-theme="dark"] nav.top{background:rgba(28,28,29,.92)}
+  @media (prefers-color-scheme: dark){:root[data-theme="auto"] nav.top{background:rgba(28,28,29,.92)}}
+  nav.top .brand{font-family:var(--serif);font-weight:500;font-size:17px;color:var(--heading);text-decoration:none}
+  nav.top .brand small{display:block;font-size:11px;color:var(--text-muted);font-family:var(--sans);font-weight:400;margin-top:-2px}
+  nav.top ul{list-style:none;display:flex;align-items:center;gap:4px;margin:0;padding:0}
+  nav.top ul li a{display:inline-block;padding:8px 12px;color:var(--text);font-size:14px;font-weight:400;border-radius:6px;transition:background .15s ease}
+  nav.top ul li a:hover{background:var(--surface);text-decoration:none}
+  nav.top ul li a.active{background:var(--accent-soft);color:var(--accent)}
+  nav.top .theme-btn{margin-left:14px;border:1px solid var(--rule);background:transparent;color:var(--text);cursor:pointer;padding:6px 10px;border-radius:6px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+  nav.top .theme-btn:hover{background:var(--surface)}
+
+  main{max-width:920px;margin:0 auto;padding:40px 40px 100px}
+  section{padding:48px 0;border-top:1px solid var(--rule)}
+  section:first-of-type{border-top:0;padding-top:32px}
+  h1,h2,h3{font-family:var(--serif);color:var(--heading);letter-spacing:-.005em;font-weight:500}
+  h1{font-size:40px;line-height:1.15;margin:0 0 6px}
+  h1 .first{font-weight:400}
+  h2{font-size:24px;margin:0 0 20px;font-weight:500}
+  h3{font-size:17px;margin:0 0 4px}
+
+  #about .inner{display:grid;grid-template-columns:1fr 240px;gap:50px;align-items:start}
+  #about .subtitle{color:var(--text-muted);font-size:17px;margin:0 0 20px;font-family:var(--sans);font-weight:400}
+  #about .subtitle a{color:var(--text-muted);border-bottom:1px solid var(--rule)}
+  #about .subtitle a:hover{color:var(--accent);border-color:var(--accent);text-decoration:none}
+  #about .bio p{margin:0 0 1em;font-size:15.5px;line-height:1.65}
+  #about .contacts{margin-top:28px;font-size:14px;color:var(--text-muted);display:flex;flex-direction:column;gap:4px}
+  #about .contacts a{color:var(--text)}
+  #about .contacts .lbl{display:inline-block;width:18px;color:var(--text-muted)}
+  #about .socials{display:flex;gap:18px;margin-top:22px;align-items:center;color:var(--text-muted);font-size:20px}
+  #about .socials a{color:inherit;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;transition:color .15s ease}
+  #about .socials a:hover{color:var(--accent)}
+  #about .socials svg{width:20px;height:20px;stroke:currentColor;stroke-width:1.6;fill:none}
+  #about .pic-wrap{width:240px}
+  #about .pic{width:240px;height:240px;border-radius:50%;overflow:hidden;border:1px solid var(--rule);box-shadow:var(--shadow)}
+  #about .pic img{width:100%;height:100%;object-fit:cover;object-position:center 22%;display:block}
+  #about .pic-caption{margin-top:10px;font-size:12px;color:var(--text-muted);text-align:center;line-height:1.4}
+
+  #news h2{display:flex;align-items:baseline;justify-content:space-between}
+  #news h2 .more{font-family:var(--sans);font-size:13px;font-weight:400;color:var(--accent)}
+  #news .scroll{max-height:290px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;padding:0}
+  #news table{width:100%;border-collapse:collapse;font-size:14px}
+  #news td{padding:10px 16px;vertical-align:top;border-bottom:1px solid var(--rule)}
+  #news tr:last-child td{border-bottom:0}
+  #news .d{width:92px;color:var(--text-muted);font-family:var(--mono);font-size:12px;white-space:nowrap}
+
+  .pub{display:grid;grid-template-columns:80px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--rule)}
+  .pub:last-child{border-bottom:0}
+  .pub .year{font-family:var(--mono);font-size:14px;color:var(--text-muted);text-align:right;padding-top:3px}
+  .pub .year span{display:inline-block;padding:4px 8px;background:var(--surface);color:var(--text);border-radius:4px;font-weight:500}
+  .pub .body .title{display:block;font-family:var(--serif);font-size:17px;font-weight:500;color:var(--heading);line-height:1.3;margin-bottom:4px}
+  .pub .body .title a{color:inherit}
+  .pub .body .title a:hover{color:var(--accent)}
+  .pub .body .authors{font-size:14px;color:var(--text);margin-bottom:2px;line-height:1.5}
+  .pub .body .authors .me{color:var(--accent);font-weight:600}
+  .pub .body .venue{font-style:italic;font-size:13.5px;color:var(--text-muted);margin-bottom:10px}
+  .pub .body .abstract{font-size:13.5px;color:var(--text-muted);margin:2px 0 10px;line-height:1.5;max-width:60ch}
+  .pub .body .links{display:flex;flex-wrap:wrap;gap:8px}
+  .pub .body .links a{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:4px;background:transparent;border:1px solid var(--rule);font-size:12px;color:var(--text);text-transform:uppercase;letter-spacing:.04em;font-family:var(--mono);transition:background .15s ease, color .15s ease}
+  .pub .body .links a:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);text-decoration:none}
+  #pubs .more-link{margin-top:24px;font-size:14px}
+
+  .list{list-style:none;padding:0;margin:0}
+  .list li{display:grid;grid-template-columns:92px 1fr auto;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  .list li:last-child{border-bottom:0}
+  .list .when{font-family:var(--mono);font-size:12px;color:var(--text-muted)}
+  .list .what{font-size:15px;color:var(--text)}
+  .list .what strong{color:var(--heading);font-weight:500}
+  .list .where{font-size:13px;color:var(--text-muted);text-align:right}
+
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .chip{display:inline-block;padding:5px 11px;border-radius:999px;background:var(--surface);color:var(--text);font-size:13px;border:1px solid var(--rule)}
+
+  footer{max-width:920px;margin:0 auto;padding:28px 40px 40px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--text-muted)}
+  footer a{color:var(--text-muted)}
+  footer a:hover{color:var(--accent)}
+
+  @media (max-width:760px){
+    nav.top{padding:10px 20px}
+    nav.top ul li a{padding:6px 8px;font-size:13px}
+    main{padding:20px 20px 60px}
+    #about .inner{grid-template-columns:1fr;gap:24px}
+    #about .pic-wrap{order:-1;margin:0 auto}
+    #about .pic{width:180px;height:180px}
+    .list li{grid-template-columns:1fr;gap:4px}
+    .list .where{text-align:left}
+    .pub{grid-template-columns:1fr;gap:6px}
+    .pub .year{text-align:left}
+    h1{font-size:30px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="top">
+  <a href="#about" class="brand">
+    Waleed Iqbal
+    <small>Assistant Professor · Data Science</small>
+  </a>
+  <ul>
+    <li><a href="#about" class="active">about</a></li>
+    <li><a href="#news">news</a></li>
+    <li><a href="#pubs">publications</a></li>
+    <li><a href="#teaching">teaching</a></li>
+    <li><a href="#cv">cv</a></li>
+    <li><button class="theme-btn" id="themeToggle">Auto</button></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ─── ABOUT ──────────────────────────── -->
+  <section id="about">
+    <div class="inner">
+      <div>
+        <h1><span class="first">Waleed</span> Iqbal</h1>
+        <p class="subtitle">
+          Assistant Professor in Data Science,
+          <a href="https://www.nulondon.ac.uk/people/waleed-iqbal/">Northeastern University London</a>.
+          Teaching Fellow, <a href="https://www.eecs.qmul.ac.uk/">Queen Mary University of London</a>.
+        </p>
+
+        <div class="bio">
+          <p>I study how socio-economic inequalities surface in online behaviour — from search queries and platform engagement to scholarly publishing. My PhD, supervised by <a href="https://www.seresearch.qmul.ac.uk/cncs/people/idecastroarribas/">Dr. Ignacio Castro</a> and <a href="https://www.qmul.ac.uk/eecs/people/profiles/tysongareth.html">Prof. Gareth Tyson</a> in the <a href="https://sds.eecs.qmul.ac.uk">Social Data Science Lab</a>, measured how real-world inequalities travel through the digital traces people leave behind.</p>
+
+          <p>Since September 2023 I am endorsed as <strong>UK Global Talent (Exceptional Promise)</strong> in Research and Academia by the Royal Academy of Engineering.</p>
+
+          <p>I'm always open to collaboration — reach out below.</p>
+        </div>
+
+        <div class="chips">
+          {{- range index $author "interests" }}
+          <span class="chip">{{ . }}</span>
+          {{- end }}
+        </div>
+
+        <div class="contacts">
+          <span><span class="lbl">✉</span> <a href="mailto:w.iqbal@qmul.ac.uk">w.iqbal@qmul.ac.uk</a></span>
+          <span><span class="lbl">⌂</span> Devon House, Aldgate, London E1 8FA</span>
+        </div>
+
+        <div class="socials">
+          <a href="https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar">
+            <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </a>
+          <a href="https://orcid.org/0000-0002-9805-5688" aria-label="ORCID" title="ORCID">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 8v8M8 8h.01M12 11v5M12 11c0-1.5 1.5-3 3-3s3 1.5 3 3-1.5 3-3 3h-3"/></svg>
+          </a>
+          <a href="https://www.researchgate.net/profile/Waleed_Iqbal" aria-label="ResearchGate" title="ResearchGate">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9 7v10m0-6h3a2 2 0 100-4H9m3 4l3 6"/></svg>
+          </a>
+          <a href="https://github.com/waleediqbal411" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          </a>
+          <a href="https://twitter.com/waleediqbal411" aria-label="Twitter" title="Twitter">
+            <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/waleediqbal411" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="pic-wrap">
+        <div class="pic">
+          {{- if $portraitURL }}
+          <img src="{{ $portraitURL }}" alt="Waleed Iqbal" width="240" height="240">
+          {{- else }}
+          <div style="width:100%;height:100%;background:var(--accent-soft)"></div>
+          {{- end }}
+        </div>
+        <p class="pic-caption">Seven Sisters, East Sussex</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── NEWS ───────────────────────────── -->
+  <section id="news">
+    <h2>news</h2>
+    <div class="scroll">
+      <table>
+        <tr><td class="d">Sep 2025</td><td>Co-PI on <strong>Neighbourhood Signals: Online Discussions and Crime</strong> — £23,794 from REPHRAIN under Safer Streets strand 3.</td></tr>
+        <tr><td class="d">Jun 2025</td><td>Promoted to <strong>Assistant Professor in Data Science (Teaching and Scholarship)</strong> at Northeastern University London.</td></tr>
+        <tr><td class="d">Jan 2025</td><td>Joined <a href="https://www.northeastern.edu">Northeastern University</a> as Lecturer in Data Science at the London campus.</td></tr>
+        <tr><td class="d">Nov 2024</td><td>Passed PhD viva at Queen Mary University of London (minor corrections).</td></tr>
+        <tr><td class="d">Jul 2024</td><td>Working paper on discourse similarity between politicians and constituents on <a href="https://arxiv.org/pdf/2407.03255">arXiv</a>.</td></tr>
+        <tr><td class="d">Sep 2023</td><td>Recognised as <strong>UK Global Talent (Exceptional Promise)</strong> by the Royal Academy of Engineering.</td></tr>
+        <tr><td class="d">Mar 2023</td><td>Paper accepted at <a href="https://arxiv.org/pdf/2304.05232.pdf">ICWSM 2023</a>: Lady and Tramp Nextdoor.</td></tr>
+        <tr><td class="d">Sep 2022</td><td>Appointed <strong>Teaching Fellow</strong> at the School of EECS, Queen Mary University of London.</td></tr>
+        <tr><td class="d">Aug 2019</td><td>Graduated from ITU Lahore with MS Computer Science and Dean's Roll of Honor.</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- ─── PUBLICATIONS ───────────────────── -->
+  <section id="pubs">
+    <h2>selected publications</h2>
+
+    {{ range first 10 $pubs }}
+    <div class="pub">
+      <div class="year"><span>{{ .Date.Format "2006" }}</span></div>
+      <div class="body">
+        <span class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+        <div class="authors">
+          {{- range $i, $a := .Params.authors -}}
+            {{- if $i }}, {{ end -}}
+            {{- if eq (lower (string $a)) "me" -}}<span class="me">Waleed Iqbal</span>{{- else -}}{{- $a -}}{{- end -}}
+          {{- end -}}
+        </div>
+        {{- with .Params.publication }}
+        <div class="venue">{{ . | markdownify }}</div>
+        {{- end }}
+        {{- with .Params.abstract }}
+        <div class="abstract">{{ . | plainify | truncate 240 }}</div>
+        {{- end }}
+        {{- with .Params.links }}
+        <div class="links">
+          {{- range . -}}
+          <a href="{{ .url }}">{{ .type | upper }}</a>
+          {{- end -}}
+        </div>
+        {{- end }}
+      </div>
+    </div>
+    {{ end }}
+
+    <p class="more-link">→ Full list on <a href="https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&amp;hl=en">Google Scholar</a>.</p>
+  </section>
+
+  <!-- ─── TEACHING ──────────────────────── -->
+  <section id="teaching">
+    <h2>teaching</h2>
+    <ul class="list">
+      {{ range $teaching }}
+      <li>
+        <span class="when">{{ .Date.Format "2006" }}</span>
+        <span class="what"><strong>{{ .Title }}</strong>{{ with .Params.role }} · {{ . }}{{ end }}{{ with .Params.term }} · {{ . }}{{ end }}</span>
+        <span class="where">{{ with .Params.institution }}{{ . }}{{ end }}</span>
+      </li>
+      {{ end }}
+      {{- if not $teaching }}
+      <li>
+        <span class="when">2024 —</span>
+        <span class="what"><strong>Data Science Fundamentals</strong></span>
+        <span class="where">Northeastern Univ. London</span>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+
+  <!-- ─── CV ────────────────────────────── -->
+  <section id="cv">
+    <h2>education &amp; honours</h2>
+    <ul class="list">
+      <li>
+        <span class="when">2023</span>
+        <span class="what"><strong>UK Global Talent (Exceptional Promise)</strong> · Research &amp; Academic</span>
+        <span class="where">Royal Academy of Engineering</span>
+      </li>
+      {{ range (index $author "education") }}
+      <li>
+        <span class="when"></span>
+        <span class="what"><strong>{{ index . "degree" }}</strong></span>
+        <span class="where">{{ index . "institution" }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <span>© {{ now.Year }} Waleed Iqbal. Hand-built in London.</span>
+  <span>Design adapted from <a href="https://github.com/alshedivat/al-folio">al-folio</a> (MIT).</span>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const btn = document.getElementById('themeToggle');
+  const next = { auto:'light', light:'dark', dark:'auto' };
+  const saved = (() => { try { return localStorage.getItem('theme'); } catch(_) { return null; } })() || 'auto';
+  root.setAttribute('data-theme', saved);
+  btn.textContent = saved[0].toUpperCase()+saved.slice(1);
+  btn.addEventListener('click', () => {
+    const curr = root.getAttribute('data-theme') || 'auto';
+    const n = next[curr];
+    root.setAttribute('data-theme', n);
+    btn.textContent = n[0].toUpperCase()+n.slice(1);
+    try { localStorage.setItem('theme', n); } catch(_) {}
+  });
+
+  const links = document.querySelectorAll('nav.top ul li a[href^="#"]');
+  const map = new Map();
+  links.forEach(a => { const el = document.querySelector(a.getAttribute('href')); if (el) map.set(el, a); });
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        links.forEach(a => a.classList.remove('active'));
+        map.get(e.target)?.classList.add('active');
+      }
+    });
+  }, { rootMargin: "-40% 0px -55% 0px" });
+  map.forEach((_, el) => io.observe(el));
+</script>
+</body>
+</html>
