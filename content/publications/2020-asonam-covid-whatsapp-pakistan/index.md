@@ -1,13 +1,13 @@
 ---
 title: "A First Look at COVID-19 Messages on WhatsApp in Pakistan"
 authors:
-  - Rana Tallal Javed
-  - Elaaf Shuja
+  - R Tallal Javed
+  - Mirza Elaaf Shuja
   - Muhammad Usama
   - Junaid Qadir
   - me
-  - Ignacio Castro
   - Gareth Tyson
+  - Ignacio Castro
   - Kiran Garimella
 date: '2020-10-28T00:00:00Z'
 publication_types: ['paper-conference']

@@ -3,8 +3,10 @@ title: "A Bibliometric Analysis of Publications in Computer Networking Research"
 authors:
   - me
   - Junaid Qadir
-  - Saeed-Ul Hassan
+  - Gareth Tyson
   - Adnan Noor Mian
+  - Saeed-ul Hassan
+  - Jon Crowcroft
 date: '2019-03-25T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Scientometrics*, Springer'

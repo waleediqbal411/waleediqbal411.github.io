@@ -1,7 +1,7 @@
 ---
 title: "A Deep Dive into COVID-19-Related Messages on WhatsApp in Pakistan"
 authors:
-  - Rana Tallal Javed
+  - R Tallal Javed
   - Muhammad Usama
   - me
   - Junaid Qadir

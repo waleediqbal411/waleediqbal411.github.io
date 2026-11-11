@@ -8,8 +8,10 @@ authors:
   - Junaid Qadir
   - Gareth Tyson
   - Ignacio Castro
-  - Adnan Noor Mian
-  - Khaled Letaief
+  - Adeel Razi
+  - Maged N Kamel Boulos
+  - Adrian Weller
+  - Jon Crowcroft
 date: '2020-08-28T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*IEEE Transactions on Artificial Intelligence*'

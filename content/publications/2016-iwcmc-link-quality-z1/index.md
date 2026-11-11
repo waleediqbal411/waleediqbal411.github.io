@@ -2,9 +2,9 @@
 title: "Experimental study of link quality in IEEE 802.15.4 using Z1 Motes"
 authors:
   - Adnan Noor Mian
-  - Syed Ali Alvi
-  - R. Khan
-  - M. Zulqarnain
+  - Sheeraz A Alvi
+  - Raees Khan
+  - Muhammad Zulqarnain
   - me
 date: '2016-05-01T00:00:00Z'
 publication_types: ['paper-conference']
