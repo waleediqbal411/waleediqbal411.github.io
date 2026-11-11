@@ -119,6 +119,8 @@
   .pub .body .links{display:flex;flex-wrap:wrap;gap:8px}
   .pub .body .links a{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:4px;background:transparent;border:1px solid var(--rule);font-size:12px;color:var(--text);text-transform:uppercase;letter-spacing:.04em;font-family:var(--mono);transition:background .15s ease, color .15s ease}
   .pub .body .links a:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);text-decoration:none}
+  #pubs .scroll{max-height:520px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;padding:0 20px;margin-top:6px}
+  #pubs .scroll .pub:last-child{border-bottom:0}
   #pubs .more-link{margin-top:24px;font-size:14px}
 
   .list{list-style:none;padding:0;margin:0}
@@ -254,6 +256,7 @@
   <section id="pubs">
     <h2>publications</h2>
 
+    <div class="scroll">
     {{ range $pubs }}
     <div class="pub">
       <div class="year"><span>{{ .Date.Format "2006" }}</span></div>
@@ -281,6 +284,7 @@
       </div>
     </div>
     {{ end }}
+    </div>
 
     <p class="more-link">→ Full list on <a href="https://scholar.google.com/citations?user=Dp1nYx4AAAAJ&amp;hl=en">Google Scholar</a>.</p>
   </section>
