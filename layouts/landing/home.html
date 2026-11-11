@@ -277,7 +277,6 @@
       "Computational Social Science"
       "Internet Measurement"
       "Bibliometrics & Science of Science"
-      "Natural Language Processing"
       "Computer Networks"
       "ICTD"
       "AI for Education"
@@ -291,7 +290,7 @@
 
     <div class="scroll" id="pubsScroll">
     {{ range $pubs }}
-    <div class="pub" data-tags="{{ delimit .Params.tags "|" | lower }}">
+    <div class="pub" data-tags="{{ with .Params.tags }}{{ delimit . "|" | lower }}{{ end }}">
       <div class="year"><span>{{ .Date.Format "2006" }}</span></div>
       <div class="body">
         <span class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
