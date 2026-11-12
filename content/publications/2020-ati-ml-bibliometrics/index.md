@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Research at Alan Turing Institute: Bibliometric Overview and Trends 2020"
+title: "Machine Learning Research at Alan Turing Institute: Bibliometric Overview and Trends"
 authors:
   - me
   - Junaid Qadir
