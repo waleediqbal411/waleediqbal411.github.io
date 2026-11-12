@@ -131,6 +131,8 @@
   .pub .body .links a{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:4px;background:transparent;border:1px solid var(--rule);font-size:12px;color:var(--text);text-transform:uppercase;letter-spacing:.04em;font-family:var(--mono);transition:background .15s ease, color .15s ease}
   .pub .body .links a:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent);text-decoration:none}
   #pubs .scroll{max-height:520px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;padding:0 20px;margin-top:6px}
+  #teaching .scroll{max-height:380px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;padding:0 20px}
+  #teaching .scroll ul.list{margin:0}
   #pubs .scroll .pub.hidden{display:none}
   #pubs .scroll .pub:last-child{border-bottom:0}
   #pubs .more-link{margin-top:24px;font-size:14px}
@@ -360,6 +362,7 @@
   <!-- ─── TEACHING ──────────────────────── -->
   <section id="teaching">
     <h2>teaching</h2>
+    <div class="scroll" id="teachingScroll">
     <ul class="list">
       {{ range $teaching }}
       <li>
@@ -376,6 +379,7 @@
       </li>
       {{- end }}
     </ul>
+    </div>
   </section>
 
   <!-- ─── CV ────────────────────────────── -->
