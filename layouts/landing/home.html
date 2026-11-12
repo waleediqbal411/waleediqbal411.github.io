@@ -376,7 +376,7 @@
       <li>
         <span class="when">{{ .Date.Format "2006" }}</span>
         <span class="what">
-          <strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>{{ with .Params.role }} · {{ . }}{{ end }}{{ with .Params.term }} · {{ . }}{{ end }}
+          <strong>{{ .Title }}</strong>{{ with .Params.role }} · {{ . }}{{ end }}{{ with .Params.term }} · {{ . }}{{ end }}
           {{- with .Params.lectures }}
           <div class="lectures-heading">Selected lectures</div>
           <ul class="lectures">
