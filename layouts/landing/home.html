@@ -143,10 +143,19 @@
   #pubs .scroll .pub.hidden{display:none}
   #pubs .scroll .pub:last-child{border-bottom:0}
   #pubs .more-link{margin-top:24px;font-size:14px}
-  #pubs .pub-stats{display:flex;gap:28px;flex-wrap:wrap;margin:8px 0 2px;padding:10px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+  #pubs .pub-stats{position:relative;display:flex;gap:28px;flex-wrap:wrap;margin:8px 0 2px;padding:10px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
   #pubs .pub-stats .stat{display:flex;align-items:baseline;gap:7px}
   #pubs .pub-stats .stat .n{font-family:var(--serif);font-size:22px;font-weight:600;color:var(--heading);line-height:1}
   #pubs .pub-stats .stat .l{font-family:var(--mono);font-size:11.5px;color:var(--text-muted);text-transform:lowercase;letter-spacing:.04em}
+  #pubs .pub-stats details.stat{list-style:none}
+  #pubs .pub-stats details.stat>summary{display:flex;align-items:baseline;gap:7px;cursor:pointer;list-style:none;border-bottom:1px dotted var(--text-muted)}
+  #pubs .pub-stats details.stat>summary::-webkit-details-marker{display:none}
+  #pubs .pub-stats details.stat>summary:hover .n,#pubs .pub-stats details.stat[open]>summary .n{color:var(--accent)}
+  #pubs .pub-stats .chain{position:absolute;left:0;top:calc(100% + 6px);z-index:3;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:10px 14px;font-family:var(--sans);font-size:13.5px;color:var(--text);box-shadow:0 2px 10px rgba(0,0,0,.08);white-space:nowrap;max-width:min(90vw,calc(100% - 4px));overflow-x:auto}
+  #pubs .pub-stats .chain .step{color:var(--text);white-space:nowrap}
+  #pubs .pub-stats .chain .me{color:var(--accent);font-weight:600}
+  #pubs .pub-stats .chain .arrow{color:var(--text-muted);margin:0 6px}
+  @media (max-width:520px){#pubs .pub-stats .chain{white-space:normal;line-height:1.7}}
   #pubs .tag-bar{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 10px;align-items:center}
   #pubs .tag-bar .tag{display:inline-block;padding:5px 12px;border-radius:999px;background:transparent;border:1px solid var(--rule);color:var(--text-muted);font-family:var(--sans);font-size:12.5px;font-weight:500;cursor:pointer;transition:background .15s ease, color .15s ease, border-color .15s ease}
   #pubs .tag-bar .tag:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
@@ -327,7 +336,12 @@
     <div class="pub-stats" aria-label="Publication statistics">
       <div class="stat"><span class="n">{{ $totalCites }}</span><span class="l">citations</span></div>
       <div class="stat"><span class="n">{{ $hIndex }}</span><span class="l">h-index</span></div>
-      <div class="stat"><span class="n">3</span><span class="l">Erd&#337;s number</span></div>
+      <details class="stat">
+        <summary><span class="n">3</span><span class="l">Erd&#337;s number</span></summary>
+        <div class="chain" role="note">
+          <span class="step me">Waleed Iqbal</span><span class="arrow">&rarr;</span><span class="step">Jon Crowcroft</span><span class="arrow">&rarr;</span><span class="step">Noga Alon</span><span class="arrow">&rarr;</span><span class="step">Paul Erd&#337;s</span>
+        </div>
+      </details>
     </div>
 
     {{- $allowedTags := slice
