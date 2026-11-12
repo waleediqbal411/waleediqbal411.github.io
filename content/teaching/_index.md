@@ -4,7 +4,7 @@ cms_exclude: true
 type: landing
 
 cascade:
-  - _build:
+  - build:
       render: never
       list: always
 
