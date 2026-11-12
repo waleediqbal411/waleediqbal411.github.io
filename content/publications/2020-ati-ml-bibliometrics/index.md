@@ -9,8 +9,8 @@ authors:
   - Jon Crowcroft
 date: '2020-09-01T00:00:00Z'
 publication_types: ['report']
-publication: 'Working report, University of Cambridge'
-publication_short: 'Cambridge Working Report'
+publication: 'Technical report'
+publication_short: 'Technical report'
 tags:
   - Bibliometrics & Science of Science
 featured: false
