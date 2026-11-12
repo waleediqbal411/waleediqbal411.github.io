@@ -11,6 +11,8 @@ date: '2026-01-01T00:00:00Z'
 publication_types: ['article-journal']
 publication: '*Artificial Intelligence and Law*, 1-67'
 publication_short: 'AI & Law'
+tags:
+  - LLM Evaluation
 abstract: |
   A benchmark for evaluating how well large language models understand and reason about Islamic legal traditions across more than a millennium of pluralist jurisprudence, with implications for cross-cultural benchmarks of model knowledge.
 featured: true
