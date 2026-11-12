@@ -133,6 +133,10 @@
   #pubs .scroll{max-height:520px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;padding:0 20px;margin-top:6px}
   #teaching .scroll{max-height:380px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;padding:0 20px}
   #teaching .scroll ul.list{margin:0}
+  #teaching ul.lectures{list-style:none;padding:6px 0 0 12px;margin:0;display:flex;flex-direction:column;gap:2px}
+  #teaching ul.lectures li{padding:0;border:none;display:block}
+  #teaching ul.lectures a{font-size:13px;color:var(--text-muted);text-decoration:none;font-weight:400}
+  #teaching ul.lectures a:hover{color:var(--accent);text-decoration:underline}
   #service .scroll{max-height:320px;overflow-y:auto;border:1px solid var(--rule);border-radius:4px;padding:0 20px}
   #service .scroll ul.list{margin:0}
   #pubs .scroll .pub.hidden{display:none}
@@ -370,7 +374,16 @@
       {{ range $teaching }}
       <li>
         <span class="when">{{ .Date.Format "2006" }}</span>
-        <span class="what"><strong>{{ .Title }}</strong>{{ with .Params.role }} · {{ . }}{{ end }}{{ with .Params.term }} · {{ . }}{{ end }}</span>
+        <span class="what">
+          <strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>{{ with .Params.role }} · {{ . }}{{ end }}{{ with .Params.term }} · {{ . }}{{ end }}
+          {{- with .Params.lectures }}
+          <ul class="lectures">
+            {{- range . }}
+            <li><a href="{{ .url }}">▸ {{ .title }}</a></li>
+            {{- end }}
+          </ul>
+          {{- end }}
+        </span>
         <span class="where">{{ with .Params.institution }}{{ . }}{{ end }}</span>
       </li>
       {{ end }}
