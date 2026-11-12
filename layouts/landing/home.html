@@ -370,7 +370,7 @@
       {{ range $teaching }}
       <li>
         <span class="when">{{ .Date.Format "2006" }}</span>
-        <span class="what"><strong>{{ .Title }}</strong>{{ with .Params.role }} · {{ . }}{{ end }}{{ with .Params.term }} · {{ . }}{{ end }}</span>
+        <span class="what"><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>{{ with .Params.role }} · {{ . }}{{ end }}{{ with .Params.term }} · {{ . }}{{ end }}</span>
         <span class="where">{{ with .Params.institution }}{{ . }}{{ end }}</span>
       </li>
       {{ end }}
