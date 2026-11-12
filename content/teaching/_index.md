@@ -3,6 +3,11 @@ title: Teaching
 cms_exclude: true
 type: landing
 
+cascade:
+  - build:
+      render: never
+      list: always
+
 sections:
   - block: collection
     content:
