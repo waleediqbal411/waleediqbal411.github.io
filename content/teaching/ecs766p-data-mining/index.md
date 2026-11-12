@@ -1,7 +1,7 @@
 ---
 title: "ECS766P Data Mining"
 date: '2022-05-01T00:00:00Z'
-summary: 'Graduate course, Lab Demonstrator, Semester C 2022.'
+summary: 'Graduate course, Lab Demonstrator, 2022.'
 tags:
   - Graduate Course
   - Data Mining
@@ -9,7 +9,7 @@ tags:
 course_type: 'Graduate Course'
 institution: 'Queen Mary University of London — M.Sc. Big Data Science Program'
 role: 'Lab Demonstrator'
-term: 'Semester C 2022'
+term: '2022'
 ---
 
 The aim of this course is to discuss modern techniques for analysing, interpreting, visualising and

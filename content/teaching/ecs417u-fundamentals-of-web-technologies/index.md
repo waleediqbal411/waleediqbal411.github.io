@@ -9,7 +9,7 @@ tags:
 course_type: 'Undergraduate Course'
 institution: 'Queen Mary University of London'
 role: 'Demonstrator (2020/21) → Senior Demonstrator (2021/22) → Teaching Fellow (2022/23 – 2025/26)'
-term: 'Semesters B, 2020/21 – 2025/26'
+term: '2020/21 – 2025/26'
 ---
 
 This module offers practical skills as well as understanding of the underlying principles of
