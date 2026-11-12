@@ -16,6 +16,7 @@
   {{- $citationsUpdated = (printf "%v" .updated) -}}
 {{- end -}}
 {{- $teaching := where site.RegularPages "Section" "teaching" -}}
+{{- $teaching = $teaching.ByDate.Reverse -}}
 {{- $portraitURL := "" -}}
 {{- with resources.Get "media/profile.jpg" -}}
   {{- $p := .Fill "500x500 Center" -}}
