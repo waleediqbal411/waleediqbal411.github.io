@@ -1,15 +1,15 @@
 ---
 title: "ECS417U Fundamentals of Web Technologies"
 date: '2026-06-30T00:00:00Z'
-summary: 'Undergraduate Course, Teaching Fellow, Semesters B 2022/23 – 2025/26.'
+summary: 'Undergraduate Course, QMUL — Demonstrator (2020/21), Senior Demonstrator (2021/22), Teaching Fellow (2022/23 – 2025/26).'
 tags:
   - Undergraduate Course
   - Web Technologies
 
 course_type: 'Undergraduate Course'
 institution: 'Queen Mary University of London'
-role: 'Teaching Fellow'
-term: 'Semesters B, 2022/23 – 2025/26'
+role: 'Demonstrator (2020/21) → Senior Demonstrator (2021/22) → Teaching Fellow (2022/23 – 2025/26)'
+term: 'Semesters B, 2020/21 – 2025/26'
 ---
 
 This module offers practical skills as well as understanding of the underlying principles of
