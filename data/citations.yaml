@@ -1,7 +1,7 @@
 # Automatically maintained by .github/workflows/scrape-scholar.yml.
 # Keys are Google Scholar citation_for_view IDs.
 # Hand edits here will be overwritten on the next scrape.
-updated: 2026-11-11
+updated: 2026-11-13
 entries:
   "2osOgNQ5qMEC":
     cites: 611
@@ -25,7 +25,7 @@ entries:
     cites: 30
     title: "Characterising the IETF through the lens of RFC deployment"
   "4TOpqqG69KYC":
-    cites: 19
+    cites: 20
     title: "IslamicLegalBench: Evaluating LLMs knowledge and reasoning of islamic law across 1,200 yea"
   "Tyk-4Ss8FVUC":
     cites: 18
