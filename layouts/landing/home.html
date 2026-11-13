@@ -365,7 +365,7 @@
     <div class="pub" data-tags="{{ with .Params.tags }}{{ delimit . "|" | lower }}{{ end }}">
       <div class="year"><span>{{ .Date.Format "2006" }}</span></div>
       <div class="body">
-        <span class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+        <span class="title">{{ .Title }}</span>
         <div class="authors">
           {{- range $i, $a := .Params.authors -}}
             {{- if $i }}, {{ end -}}
@@ -382,11 +382,17 @@
             {{- end }}
           {{- end }}
         {{- end }}
-        {{- with .Params.links }}
+        {{- $extraLinks := .Params.links | default slice -}}
+        {{- $scholarURL := "" -}}
+        {{- with .Params.scholar_id -}}
+          {{- $scholarURL = printf "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Dp1nYx4AAAAJ&citation_for_view=Dp1nYx4AAAAJ:%s" . -}}
+        {{- end -}}
+        {{- if or $extraLinks $scholarURL }}
         <div class="links">
-          {{- range . -}}
+          {{- range $extraLinks -}}
           <a href="{{ .url }}">{{ .type | upper }}</a>
           {{- end -}}
+          {{- with $scholarURL }}<a href="{{ . }}">SCHOLAR</a>{{- end -}}
         </div>
         {{- end }}
       </div>
