@@ -1,7 +1,7 @@
 # Automatically maintained by .github/workflows/scrape-scholar.yml.
 # Keys are Google Scholar citation_for_view IDs.
 # Hand edits here will be overwritten on the next scrape.
-updated: 2026-11-15
+updated: 2026-11-16
 entries:
   "2osOgNQ5qMEC":
     cites: 612
