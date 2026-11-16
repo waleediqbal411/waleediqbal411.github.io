@@ -18,6 +18,8 @@ lectures:
     url: https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=34a8bb94-8d0e-4e76-b63a-b4f700c2a06a
   - title: SQL Procedures, Triggers, and Indexes
     url: https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c8aef41c-9b6b-47f7-b469-b4fd00ba0da6
+  - title: SQL Transactions and User Management
+    url: https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=47e53976-c540-495f-9a2c-b50400b7c826
 ---
 
 Foundations of database design: relational modelling, SQL, normalisation, transactions, indexing, and an introduction to NoSQL and distributed storage.
@@ -27,4 +29,5 @@ Foundations of database design: relational modelling, SQL, normalisation, transa
 - [SQL Basics and Joins](https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7bb5225b-ea32-4f83-a0d1-b4e800a89f66)
 - [Database Integration with Backend Applications](https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=34a8bb94-8d0e-4e76-b63a-b4f700c2a06a)
 - [SQL Procedures, Triggers, and Indexes](https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c8aef41c-9b6b-47f7-b469-b4fd00ba0da6)
+- [SQL Transactions and User Management](https://northeastern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=47e53976-c540-495f-9a2c-b50400b7c826)
 
