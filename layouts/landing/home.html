@@ -23,7 +23,7 @@
   {{- $portraitURL = $p.RelPermalink -}}
 {{- end -}}
 <!doctype html>
-<html lang="{{ site.Language.Lang | default "en" }}" data-theme="auto">
+<html lang="{{ site.Language.Lang | default "en" }}" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -518,7 +518,7 @@
   const root = document.documentElement;
   const btn = document.getElementById('themeToggle');
   const next = { auto:'light', light:'dark', dark:'auto' };
-  const saved = (() => { try { return localStorage.getItem('theme'); } catch(_) { return null; } })() || 'auto';
+  const saved = (() => { try { return localStorage.getItem('theme'); } catch(_) { return null; } })() || 'dark';
   root.setAttribute('data-theme', saved);
   btn.textContent = saved[0].toUpperCase()+saved.slice(1);
   btn.addEventListener('click', () => {
