@@ -1,10 +1,10 @@
 # Automatically maintained by .github/workflows/scrape-scholar.yml.
 # Keys are Google Scholar citation_for_view IDs.
 # Hand edits here will be overwritten on the next scrape.
-updated: 2026-11-16
+updated: 2026-11-17
 entries:
   "2osOgNQ5qMEC":
-    cites: 612
+    cites: 615
     title: "Data-driven artificial intelligence in education: A comprehensive review"
   "qjMakFHDy7sC":
     cites: 350
