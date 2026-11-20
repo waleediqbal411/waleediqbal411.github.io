@@ -22,4 +22,12 @@ links:
     url: https://arxiv.org/pdf/2304.05232.pdf
   - type: arxiv
     url: https://arxiv.org/abs/2304.05232
+
+press_links:
+  - name: Newswise
+    url: https://www.newswise.com/articles/tracking-income-inequality-via-social-media-posts
+  - name: New York Post
+    url: https://nypost.com/2023/06/06/how-your-social-media-posts-actually-reveal-your-salary/
+  - name: SciTechDaily
+    url: https://scitechdaily.com/scientists-accurately-predict-individuals-income-solely-off-social-media-posts/
 ---
