@@ -186,17 +186,65 @@
   footer a:hover{color:var(--accent)}
 
   @media (max-width:760px){
-    nav.top{padding:10px 20px}
+    html{text-size-adjust:100%;-webkit-text-size-adjust:100%}
+    body{overflow-x:hidden}
+    nav.top{padding:10px 16px;flex-wrap:wrap;gap:6px 10px}
+    nav.top ul{gap:2px;flex-wrap:wrap}
     nav.top ul li a{padding:6px 8px;font-size:13px}
-    main{padding:20px 20px 60px}
-    #about .inner{grid-template-columns:1fr;gap:24px}
-    #about .pic-wrap{order:-1;margin:0 auto}
-    #about .pic{width:180px;height:180px}
-    .list li{grid-template-columns:1fr;gap:4px}
+    nav.top .theme-btn{margin-left:0}
+    main{padding:20px 16px 60px}
+    section{padding:36px 0}
+    #about .inner{grid-template-columns:1fr;gap:20px}
+    #about .pic-wrap{width:auto;order:-1;margin:0 auto}
+    #about .pic{width:180px;height:180px;margin:0 auto}
+    #about h1{font-size:32px}
+    #about .bio p{font-size:15px;line-height:1.6}
+    #about .contacts{word-break:break-word}
+    #news .scroll{max-height:240px}
+    #news td{padding:10px 12px}
+    #news .d{width:72px;font-size:11.5px}
+    #news table{font-size:13.5px}
+    #pubs .pub-stats{gap:20px;padding:12px 0}
+    #pubs .pub-stats .stat .n{font-size:20px}
+    #pubs .scroll,#teaching .scroll,#service .scroll,#engagement .scroll{max-height:460px;padding:0 14px}
+    .list li{grid-template-columns:1fr;gap:4px;padding:12px 0}
     .list .where{text-align:left}
-    .pub{grid-template-columns:1fr;gap:6px}
+    .pub{grid-template-columns:1fr;gap:4px;padding:14px 0}
     .pub .year{text-align:left}
+    .pub .year span{display:inline-block;padding:2px 8px}
+    .pub .body .title{font-size:16px;overflow-wrap:anywhere}
+    .pub .body .authors{font-size:13.5px}
+    .pub .body .venue{font-size:13px}
+    .pub .body .links{gap:6px}
+    .pub .body .links a{padding:3px 7px;font-size:11.5px}
+    .pub .body .press-links{font-size:12px}
+    footer{padding:24px 16px 32px;font-size:11.5px}
     h1{font-size:30px}
+  }
+  @media (max-width:480px){
+    nav.top{padding:8px 12px}
+    nav.top .brand{font-size:15.5px}
+    nav.top .brand small{display:none}
+    nav.top ul li a{padding:5px 6px;font-size:12.5px}
+    main{padding:16px 12px 56px}
+    section{padding:28px 0}
+    #about h1{font-size:28px}
+    #about .pic,#about .pic-wrap{width:160px}
+    #about .pic{height:160px}
+    #about .subtitle{font-size:15.5px}
+    #about .bio p{font-size:14.5px}
+    #about .socials{gap:14px}
+    #news table{font-size:13px}
+    #news .d{width:60px;font-size:11px;padding:10px 8px 10px 10px}
+    #news td{padding:10px 10px}
+    #pubs .pub-stats{gap:14px}
+    #pubs .pub-stats .stat .n{font-size:18px}
+    #pubs .pub-stats .stat .l{font-size:10.5px}
+    #pubs .scroll,#teaching .scroll,#service .scroll,#engagement .scroll{max-height:420px;padding:0 10px}
+    .pub{padding:12px 0}
+    .pub .body .title{font-size:15px}
+    h1{font-size:26px}
+    h2{font-size:21px;margin-bottom:14px}
   }
 </style>
 </head>
