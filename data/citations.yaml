@@ -1,10 +1,10 @@
 # Automatically maintained by .github/workflows/scrape-scholar.yml.
 # Keys are Google Scholar citation_for_view IDs.
 # Hand edits here will be overwritten on the next scrape.
-updated: 2026-11-20
+updated: 2026-11-24
 entries:
   "2osOgNQ5qMEC":
-    cites: 618
+    cites: 619
     title: "Data-driven artificial intelligence in education: A comprehensive review"
   "qjMakFHDy7sC":
     cites: 350
@@ -45,6 +45,9 @@ entries:
   "MXK_kJrjxJIC":
     cites: 1
     title: "Bridging Educational Gaps through Volunteers; Implementation, Problems and Their Solutions"
+  "4DMP91E08xMC":
+    cites: 0
+    title: "Generative AI Governance in Education: A Scoping Review of Principles, Mechanisms, and Ris"
   "zYLM7Y9cAGgC":
     cites: 0
     title: "How Similar Are Elected Politicians and Their Constituents? Quantitative Evidence From Onl"
