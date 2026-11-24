@@ -14,6 +14,7 @@ publication_short: 'EdArXiv'
 tags:
   - AI for Education
 featured: false
+scholar_id: 4DMP91E08xMC
 
 links:
   - type: preprint
